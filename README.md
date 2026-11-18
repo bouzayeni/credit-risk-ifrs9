@@ -43,7 +43,7 @@ Each phase is checked before the next, with one commit per phase.
 | 3 | Application scorecard: 12 features, WoE/IV, points scale; out-of-time test Gini 0.343 vs XGBoost 0.390 and LC sub-grade 0.399 ([report](docs/phase3_scorecard.md)) | Done |
 | 4 | Point-in-time PD calibration (2017 back-test 6.14% vs 6.13% observed), R1–R10 master scale, lifetime PD curves with prepayment as a competing risk ([report](docs/phase4_pd.md)) | Done |
 | 5 | LGD from 174,565 completed recovery workouts (discounted at the loan rate, 90.9%), EAD from contractual amortisation ([report](docs/phase5_lgd_ead.md)) | Done |
-| 6 | IFRS 9 ECL: staging (SICR rules, 30 days past due backstop), discounting, base/upside/downside scenarios | |
+| 6 | IFRS 9 ECL: staging with updated FICO and delinquency, lifetime ECL engine, three Vasicek scenarios, matured-vintage back-test; $920.9M on $9.51bn (9.7%) ([report](docs/phase6_ecl.md)) | Done |
 | 7 | Monitoring: PSI, Gini by vintage, calibration back-tests | |
 | 8 | Power BI risk dashboard | |
 | 9 | Documentation, model cards, limitations | |
@@ -66,6 +66,7 @@ uv run python -m credit_risk.warehouse.load      # star schema + BI views, recon
 uv run python -m credit_risk.scorecard.train     # scorecard + docs/phase3_scorecard.md (~6 min)
 uv run python -m credit_risk.pd.run              # PD calibration, ratings, lifetime PD curves
 uv run python -m credit_risk.loss.run            # LGD and EAD + docs/phase5_lgd_ead.md
+uv run python -m credit_risk.ecl.run             # IFRS 9 ECL + docs/phase6_ecl.md (~2 min)
 uv run pytest                                    # unit tests + warehouse checks (-m db)
 ```
 
