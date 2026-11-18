@@ -84,6 +84,22 @@ Design choices:
 Open book at 2019-03-31: **912,609 loans, $9.51 bn outstanding principal**, of which
 878,317 Current ($9.13 bn), 12,785 1–30 days late and 21,507 31+ days late or flagged default.
 
+## Model results (Phase 8)
+
+`credit_risk.warehouse.load_results` adds the model outputs, in one transaction reconciled
+to the Phase 6 ECL by stage to the cent (DDL in `warehouse/sql/30_results.sql`, views in
+`40_results_views.sql`). Run it after `credit_risk.warehouse.load`, because recreating
+`dw.fact_loan` drops these tables' foreign keys and views.
+
+| Table | Grain | View for Power BI |
+|---|---|---|
+| `dw.dim_rating` | rating R1–R10 | `bi.rating_scale` |
+| `dw.fact_ecl` | open loan with principal outstanding (907,904; `bi.open_book` also counts 4,705 open-status loans with none) | `bi.ecl_loan` (with loan attributes and stage reason), `bi.ecl_by_stage` |
+| `dw.fact_pd_curve` | rating × term × month on book | `bi.pd_term_structure` |
+| `dw.ecl_scenario` | scenario | `bi.ecl_scenario` |
+| `dw.monitoring_quarter` | issue quarter | `bi.monitoring_quarter` |
+| `dw.monitoring_feature` | issue quarter × feature | `bi.monitoring_feature` |
+
 ## Load and reconciliation
 
 The load runs as `credit_etl` in a single transaction: drop and recreate tables, COPY
