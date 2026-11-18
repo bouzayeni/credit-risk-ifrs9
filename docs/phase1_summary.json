@@ -1,0 +1,220 @@
+{
+  "build_counts": {
+    "raw_lines": 2260701,
+    "footer_lines": 33,
+    "old_policy": 2749,
+    "dti_set_missing": 137,
+    "annual_inc_zero_set_missing": 1667,
+    "annual_inc_above_1m_kept": 582,
+    "last_fico_range_low_zero_set_missing": 37220,
+    "last_fico_range_high_zero_set_missing": 232,
+    "loans": 2257919
+  },
+  "snapshot_date": "2019-03-31",
+  "current_loans_last_payment_month": {
+    "2019-03-01": 825817,
+    "2019-02-01": 52493,
+    "2018-07-01": 3
+  },
+  "last_complete_vintage_12m": "2017-12-01",
+  "loans": 2257919,
+  "eligible_12m": 1762677,
+  "default_12m_rate_pct": 5.8,
+  "default_12m_strict_rate_pct": 5.78,
+  "defaults_total": 290066,
+  "default_month_estimates": {
+    "both_available": 287651,
+    "equal": 177785,
+    "amount_earlier": 104582,
+    "date_earlier": 5284,
+    "median_abs_gap_months": 0.0
+  },
+  "months_to_default_quantiles": {
+    "0.1": 5.0,
+    "0.25": 9.0,
+    "0.5": 15.0,
+    "0.75": 23.0,
+    "0.9": 30.0
+  },
+  "share_of_defaults_within_12m_pct": 40.71,
+  "by_vintage_12m": [
+    {
+      "vintage": 2007,
+      "loans": 251,
+      "default_12m": 5.18,
+      "default_12m_strict": 5.18
+    },
+    {
+      "vintage": 2008,
+      "loans": 1562,
+      "default_12m": 5.63,
+      "default_12m_strict": 5.63
+    },
+    {
+      "vintage": 2009,
+      "loans": 4716,
+      "default_12m": 5.66,
+      "default_12m_strict": 5.66
+    },
+    {
+      "vintage": 2010,
+      "loans": 11536,
+      "default_12m": 4.43,
+      "default_12m_strict": 4.43
+    },
+    {
+      "vintage": 2011,
+      "loans": 21721,
+      "default_12m": 4.95,
+      "default_12m_strict": 4.95
+    },
+    {
+      "vintage": 2012,
+      "loans": 53367,
+      "default_12m": 5.35,
+      "default_12m_strict": 5.35
+    },
+    {
+      "vintage": 2013,
+      "loans": 134814,
+      "default_12m": 4.48,
+      "default_12m_strict": 4.48
+    },
+    {
+      "vintage": 2014,
+      "loans": 235629,
+      "default_12m": 4.9,
+      "default_12m_strict": 4.9
+    },
+    {
+      "vintage": 2015,
+      "loans": 421095,
+      "default_12m": 5.73,
+      "default_12m_strict": 5.73
+    },
+    {
+      "vintage": 2016,
+      "loans": 434407,
+      "default_12m": 6.57,
+      "default_12m_strict": 6.57
+    },
+    {
+      "vintage": 2017,
+      "loans": 443579,
+      "default_12m": 6.13,
+      "default_12m_strict": 6.06
+    }
+  ],
+  "lifetime_by_vintage": [
+    {
+      "vintage": 2007,
+      "loans": 251,
+      "is_default": 17.93,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2008,
+      "loans": 1562,
+      "is_default": 15.81,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2009,
+      "loans": 4716,
+      "is_default": 12.6,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2010,
+      "loans": 11536,
+      "is_default": 12.89,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2011,
+      "loans": 21721,
+      "is_default": 15.18,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2012,
+      "loans": 53367,
+      "is_default": 16.2,
+      "is_closed": 100.0
+    },
+    {
+      "vintage": 2013,
+      "loans": 134814,
+      "is_default": 15.6,
+      "is_closed": 99.99
+    },
+    {
+      "vintage": 2014,
+      "loans": 235629,
+      "is_default": 17.61,
+      "is_closed": 94.68
+    },
+    {
+      "vintage": 2015,
+      "loans": 421095,
+      "is_default": 18.32,
+      "is_closed": 89.18
+    }
+  ],
+  "by_grade_12m": [
+    {
+      "grade": "A",
+      "loans": 297752,
+      "default_12m": 1.48,
+      "default_12m_strict": 1.47
+    },
+    {
+      "grade": "B",
+      "loans": 521838,
+      "default_12m": 3.37,
+      "default_12m_strict": 3.35
+    },
+    {
+      "grade": "C",
+      "loans": 522574,
+      "default_12m": 6.07,
+      "default_12m_strict": 6.05
+    },
+    {
+      "grade": "D",
+      "loans": 254687,
+      "default_12m": 9.5,
+      "default_12m_strict": 9.47
+    },
+    {
+      "grade": "E",
+      "loans": 116145,
+      "default_12m": 12.99,
+      "default_12m_strict": 12.97
+    },
+    {
+      "grade": "F",
+      "loans": 38378,
+      "default_12m": 17.61,
+      "default_12m_strict": 17.58
+    },
+    {
+      "grade": "G",
+      "loans": 11303,
+      "default_12m": 22.68,
+      "default_12m_strict": 22.66
+    }
+  ],
+  "by_term_12m": [
+    {
+      "term": 36,
+      "loans": 1262645,
+      "default_12m": 5.19
+    },
+    {
+      "term": 60,
+      "loans": 500032,
+      "default_12m": 7.34
+    }
+  ]
+}
