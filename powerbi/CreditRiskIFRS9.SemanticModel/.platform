@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "CreditRiskIFRS9"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0e3cc6d6-3c09-550c-8e66-844b74d6f636"
+  }
+}

@@ -1,0 +1,1018 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "tables": [
+      {
+        "name": "ECL Loan",
+        "lineageTag": "eea87b25-1968-51fe-9199-c9a1e9c62a65",
+        "columns": [
+          {
+            "name": "loan_id",
+            "dataType": "int64",
+            "sourceColumn": "loan_id",
+            "summarizeBy": "none",
+            "lineageTag": "2402da40-a9fc-5ef6-994d-66e69a7fcc7b",
+            "isHidden": true
+          },
+          {
+            "name": "stage",
+            "dataType": "int64",
+            "sourceColumn": "stage",
+            "summarizeBy": "none",
+            "lineageTag": "a2504960-5680-5c33-9c21-0f3e1c1c0d6c"
+          },
+          {
+            "name": "stage_label",
+            "dataType": "string",
+            "sourceColumn": "stage_label",
+            "summarizeBy": "none",
+            "lineageTag": "764376cd-b8da-5ea1-9439-38b8603fee92"
+          },
+          {
+            "name": "stage_reason",
+            "dataType": "string",
+            "sourceColumn": "stage_reason",
+            "summarizeBy": "none",
+            "lineageTag": "a3c84506-f0e0-5358-8eae-447fe3118779"
+          },
+          {
+            "name": "rating_orig",
+            "dataType": "string",
+            "sourceColumn": "rating_orig",
+            "summarizeBy": "none",
+            "lineageTag": "30c4bb9f-1eb6-5d72-807f-079e6ccaffc6",
+            "sortByColumn": "rating_orig_rank"
+          },
+          {
+            "name": "rating_orig_rank",
+            "dataType": "int64",
+            "sourceColumn": "rating_orig_rank",
+            "summarizeBy": "none",
+            "lineageTag": "f0c30d1a-60b3-5c60-b1e2-1d3a70c8d066",
+            "isHidden": true
+          },
+          {
+            "name": "rating_now",
+            "dataType": "string",
+            "sourceColumn": "rating_now",
+            "summarizeBy": "none",
+            "lineageTag": "fb531ace-a0ca-5b29-9dd6-bfe90a40dee4",
+            "sortByColumn": "rating_now_rank"
+          },
+          {
+            "name": "rating_now_rank",
+            "dataType": "int64",
+            "sourceColumn": "rating_now_rank",
+            "summarizeBy": "none",
+            "lineageTag": "c9ce0198-619b-5ad3-a4cc-56e40d8497b1",
+            "isHidden": true
+          },
+          {
+            "name": "notches_upgraded",
+            "dataType": "int64",
+            "sourceColumn": "notches_upgraded",
+            "summarizeBy": "none",
+            "lineageTag": "946876ed-a968-5b7a-84d0-dabd0aa7e3d4"
+          },
+          {
+            "name": "pd_orig",
+            "dataType": "double",
+            "sourceColumn": "pd_orig",
+            "summarizeBy": "none",
+            "lineageTag": "94ecdd9d-ae6d-5949-b179-80759ce14d0b",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_now",
+            "dataType": "double",
+            "sourceColumn": "pd_now",
+            "summarizeBy": "none",
+            "lineageTag": "cc0c6b85-5374-556e-aac2-874b2ba64544",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "fico_change",
+            "dataType": "double",
+            "sourceColumn": "fico_change",
+            "summarizeBy": "none",
+            "lineageTag": "8f51c21a-1cc6-5a06-8318-af33793b7d9a"
+          },
+          {
+            "name": "gross_carrying_amt",
+            "dataType": "double",
+            "sourceColumn": "gross_carrying_amt",
+            "summarizeBy": "none",
+            "lineageTag": "2a612872-26b7-51a7-a0b8-c83e41d2d7ac",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl",
+            "dataType": "double",
+            "sourceColumn": "ecl",
+            "summarizeBy": "none",
+            "lineageTag": "997d5909-f0d0-59ae-ae12-fba4938dc27a",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl_upside",
+            "dataType": "double",
+            "sourceColumn": "ecl_upside",
+            "summarizeBy": "none",
+            "lineageTag": "152dab35-f8a9-5d38-845f-46f0601b4624",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl_base",
+            "dataType": "double",
+            "sourceColumn": "ecl_base",
+            "summarizeBy": "none",
+            "lineageTag": "fcfa6bea-101d-5c7b-8d5e-661a5c8ecbe8",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl_downside",
+            "dataType": "double",
+            "sourceColumn": "ecl_downside",
+            "summarizeBy": "none",
+            "lineageTag": "44e9fe92-7efd-5001-8eaf-0f60640b86c8",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl_12m_base",
+            "dataType": "double",
+            "sourceColumn": "ecl_12m_base",
+            "summarizeBy": "none",
+            "lineageTag": "077e5d0d-2abe-53e0-b8f3-12801f5e9bd9",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "ecl_lifetime_base",
+            "dataType": "double",
+            "sourceColumn": "ecl_lifetime_base",
+            "summarizeBy": "none",
+            "lineageTag": "1c885e2b-8db3-5ef6-b8ad-ab7970bce7cb",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "pd_12m_fwd_base",
+            "dataType": "double",
+            "sourceColumn": "pd_12m_fwd_base",
+            "summarizeBy": "none",
+            "lineageTag": "a7af95ca-3d67-5266-a2f4-1ed847359718",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_lifetime_fwd_base",
+            "dataType": "double",
+            "sourceColumn": "pd_lifetime_fwd_base",
+            "summarizeBy": "none",
+            "lineageTag": "f13be7aa-f5ec-58be-b34a-7d0fa0829550",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "term_months",
+            "dataType": "int64",
+            "sourceColumn": "term_months",
+            "summarizeBy": "none",
+            "lineageTag": "fdc8d7e9-543b-5092-8318-49639621f691"
+          },
+          {
+            "name": "int_rate",
+            "dataType": "double",
+            "sourceColumn": "int_rate",
+            "summarizeBy": "none",
+            "lineageTag": "df62e219-562d-535b-b0b9-6537dd7c5174",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "loan_status",
+            "dataType": "string",
+            "sourceColumn": "loan_status",
+            "summarizeBy": "none",
+            "lineageTag": "af502144-fc0b-59a0-b0bd-b98a1470873e"
+          },
+          {
+            "name": "lc_grade",
+            "dataType": "string",
+            "sourceColumn": "lc_grade",
+            "summarizeBy": "none",
+            "lineageTag": "61f74ac6-4236-5039-810a-f148e30758e5"
+          },
+          {
+            "name": "purpose",
+            "dataType": "string",
+            "sourceColumn": "purpose",
+            "summarizeBy": "none",
+            "lineageTag": "6ce524ea-b6af-5e64-9168-1f6e69a460c2"
+          },
+          {
+            "name": "state_code",
+            "dataType": "string",
+            "sourceColumn": "state_code",
+            "summarizeBy": "none",
+            "lineageTag": "6004202a-ea2a-595d-9ccb-23de87f799d4"
+          },
+          {
+            "name": "region",
+            "dataType": "string",
+            "sourceColumn": "region",
+            "summarizeBy": "none",
+            "lineageTag": "1c8098ba-41a9-5e0f-aded-cc9fd11068b0"
+          },
+          {
+            "name": "issue_year",
+            "dataType": "int64",
+            "sourceColumn": "issue_year",
+            "summarizeBy": "none",
+            "lineageTag": "7903e148-9258-588c-88d9-40c0b9200446"
+          },
+          {
+            "name": "issue_quarter",
+            "dataType": "string",
+            "sourceColumn": "issue_quarter",
+            "summarizeBy": "none",
+            "lineageTag": "3ca487b0-4e7e-55b5-932a-fc656da06bca"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "ECL Loan",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"ecl_loan\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Loans",
+            "expression": "COUNTROWS('ECL Loan')",
+            "formatString": "#,0",
+            "lineageTag": "fc6a3f70-070e-55f0-bd91-53184365b784"
+          },
+          {
+            "name": "Gross Carrying Amount",
+            "expression": "SUM('ECL Loan'[gross_carrying_amt])",
+            "formatString": "\\$#,0",
+            "lineageTag": "88f95edc-fed8-59c9-bc8f-b91ca83066b6"
+          },
+          {
+            "name": "ECL",
+            "expression": "SUM('ECL Loan'[ecl])",
+            "formatString": "\\$#,0",
+            "lineageTag": "e33879ca-7839-5663-a261-c4de80133a98"
+          },
+          {
+            "name": "Coverage",
+            "expression": "DIVIDE([ECL], [Gross Carrying Amount])",
+            "formatString": "0.00%",
+            "lineageTag": "33c5a570-2043-5572-b9ee-9f0296c4ca4d"
+          },
+          {
+            "name": "ECL Base",
+            "expression": "SUM('ECL Loan'[ecl_base])",
+            "formatString": "\\$#,0",
+            "lineageTag": "1dfb9c74-7e66-5f85-9e3d-7a02a3e6535a"
+          },
+          {
+            "name": "ECL Upside",
+            "expression": "SUM('ECL Loan'[ecl_upside])",
+            "formatString": "\\$#,0",
+            "lineageTag": "d634ab26-e110-5ed8-ad92-bec82e988078"
+          },
+          {
+            "name": "ECL Downside",
+            "expression": "SUM('ECL Loan'[ecl_downside])",
+            "formatString": "\\$#,0",
+            "lineageTag": "b641b5d1-2c2b-5b74-8679-ef62425c7f69"
+          },
+          {
+            "name": "Scenario Uplift vs Base",
+            "expression": "DIVIDE([ECL], [ECL Base]) - 1",
+            "formatString": "0.0%",
+            "lineageTag": "e33f9a69-32e1-55cf-b226-f584c3731ec2"
+          },
+          {
+            "name": "Stage 2 Share",
+            "expression": "DIVIDE(CALCULATE([Gross Carrying Amount], 'ECL Loan'[stage] = 2), [Gross Carrying Amount])",
+            "formatString": "0.0%",
+            "lineageTag": "db429115-02f5-5315-958d-b8484bd2c3ad"
+          },
+          {
+            "name": "Stage 3 Share",
+            "expression": "DIVIDE(CALCULATE([Gross Carrying Amount], 'ECL Loan'[stage] = 3), [Gross Carrying Amount])",
+            "formatString": "0.0%",
+            "lineageTag": "9e4d8cd0-2dd7-5418-bcc6-07a4e7af9659"
+          },
+          {
+            "name": "Downgraded Share",
+            "expression": "DIVIDE(CALCULATE([Loans], 'ECL Loan'[notches_upgraded] < 0), [Loans])",
+            "formatString": "0.0%",
+            "lineageTag": "ef986ebf-db4a-5b3e-8e71-4b14f68fa4f6"
+          },
+          {
+            "name": "Forward 12m PD",
+            "expression": "AVERAGE('ECL Loan'[pd_12m_fwd_base])",
+            "formatString": "0.00%",
+            "lineageTag": "41d3e396-ee6a-572e-a3b1-37bce708fa60"
+          }
+        ]
+      },
+      {
+        "name": "Rating",
+        "lineageTag": "309cab61-5975-5cd8-9dc2-0306d2f75fd6",
+        "columns": [
+          {
+            "name": "rating",
+            "dataType": "string",
+            "sourceColumn": "rating",
+            "summarizeBy": "none",
+            "lineageTag": "afc450fd-ce7b-59e3-ab49-da23cad0d7d1",
+            "sortByColumn": "rating_rank"
+          },
+          {
+            "name": "rating_rank",
+            "dataType": "int64",
+            "sourceColumn": "rating_rank",
+            "summarizeBy": "none",
+            "lineageTag": "64c6fd5c-b99b-5aef-8dbf-0c44ca82fe72",
+            "isHidden": true
+          },
+          {
+            "name": "pd_lower",
+            "dataType": "double",
+            "sourceColumn": "pd_lower",
+            "summarizeBy": "none",
+            "lineageTag": "45c73e3b-1fa8-5f34-a8db-402ef5b3b8e2",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_upper",
+            "dataType": "double",
+            "sourceColumn": "pd_upper",
+            "summarizeBy": "none",
+            "lineageTag": "21c9ccdc-a19c-59d3-93db-cdeb92b8e8cf",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_12m",
+            "dataType": "double",
+            "sourceColumn": "pd_12m",
+            "summarizeBy": "none",
+            "lineageTag": "f20eb577-b10a-5f1b-a206-c0275ab02ba2",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_12m_upside",
+            "dataType": "double",
+            "sourceColumn": "pd_12m_upside",
+            "summarizeBy": "none",
+            "lineageTag": "945c63f4-a5c2-55ee-b934-853a9a1825ea",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "pd_12m_downside",
+            "dataType": "double",
+            "sourceColumn": "pd_12m_downside",
+            "summarizeBy": "none",
+            "lineageTag": "b7af0ff2-0b0f-5636-88d7-86a5bd9c7837",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "lgd",
+            "dataType": "double",
+            "sourceColumn": "lgd",
+            "summarizeBy": "none",
+            "lineageTag": "5b12f693-c538-5cc0-b74b-c18b7027a6ce",
+            "formatString": "0.00%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Rating",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"rating_scale\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "PD Curve",
+        "lineageTag": "b08fec0a-5f4f-5d41-ae63-32ae1d8033d7",
+        "columns": [
+          {
+            "name": "rating",
+            "dataType": "string",
+            "sourceColumn": "rating",
+            "summarizeBy": "none",
+            "lineageTag": "a72b12f4-3537-54d5-a41d-cfb147c96253"
+          },
+          {
+            "name": "term_months",
+            "dataType": "int64",
+            "sourceColumn": "term_months",
+            "summarizeBy": "none",
+            "lineageTag": "5c08f39c-92b4-5011-9001-833bf10df56d"
+          },
+          {
+            "name": "mob",
+            "dataType": "int64",
+            "sourceColumn": "mob",
+            "summarizeBy": "none",
+            "lineageTag": "a10db0e8-3980-5f06-9a5d-62261d3419fa"
+          },
+          {
+            "name": "hazard_default",
+            "dataType": "double",
+            "sourceColumn": "hazard_default",
+            "summarizeBy": "none",
+            "lineageTag": "7f685ebe-fc88-59d9-94f0-dbfd861e315f"
+          },
+          {
+            "name": "hazard_repaid",
+            "dataType": "double",
+            "sourceColumn": "hazard_repaid",
+            "summarizeBy": "none",
+            "lineageTag": "86a2b3c5-0f7d-5b75-b18d-ae93a281e6b9"
+          },
+          {
+            "name": "marginal_pd",
+            "dataType": "double",
+            "sourceColumn": "marginal_pd",
+            "summarizeBy": "none",
+            "lineageTag": "2f951dae-b016-55f8-bad2-555a02952820",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "cumulative_pd",
+            "dataType": "double",
+            "sourceColumn": "cumulative_pd",
+            "summarizeBy": "none",
+            "lineageTag": "0a52ee00-d229-5e09-adeb-0d57babf6aa9",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "survival",
+            "dataType": "double",
+            "sourceColumn": "survival",
+            "summarizeBy": "none",
+            "lineageTag": "14f4ff2f-14a1-5f54-9ce4-f37f8922b53f"
+          },
+          {
+            "name": "borrowed",
+            "dataType": "boolean",
+            "sourceColumn": "borrowed",
+            "summarizeBy": "none",
+            "lineageTag": "6cf25697-010c-54f3-b6de-8303b03640f8"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "PD Curve",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"pd_term_structure\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Cumulative PD 36m",
+            "expression": "CALCULATE(AVERAGE('PD Curve'[cumulative_pd]), 'PD Curve'[term_months] = 36)",
+            "formatString": "0.0%",
+            "lineageTag": "e37b6728-bb90-54bf-a839-d82a0e7242c1"
+          },
+          {
+            "name": "Cumulative PD 60m",
+            "expression": "CALCULATE(AVERAGE('PD Curve'[cumulative_pd]), 'PD Curve'[term_months] = 60)",
+            "formatString": "0.0%",
+            "lineageTag": "3c0fc995-3fa7-52ba-987e-2f742aa7ab9a"
+          }
+        ]
+      },
+      {
+        "name": "Scenario",
+        "lineageTag": "0605b9c3-b285-5f9f-9be7-f8fed46cd077",
+        "columns": [
+          {
+            "name": "scenario",
+            "dataType": "string",
+            "sourceColumn": "scenario",
+            "summarizeBy": "none",
+            "lineageTag": "af76d3fd-e755-502d-bbb7-e7d21d758148",
+            "sortByColumn": "sort_order"
+          },
+          {
+            "name": "sort_order",
+            "dataType": "int64",
+            "sourceColumn": "sort_order",
+            "summarizeBy": "none",
+            "lineageTag": "0478ad5f-d85f-5eb2-a6d0-6502aec25530",
+            "isHidden": true
+          },
+          {
+            "name": "factor_shift",
+            "dataType": "double",
+            "sourceColumn": "factor_shift",
+            "summarizeBy": "none",
+            "lineageTag": "49a31587-f449-5e6f-aae0-364745a88262"
+          },
+          {
+            "name": "weight",
+            "dataType": "double",
+            "sourceColumn": "weight",
+            "summarizeBy": "none",
+            "lineageTag": "0339c22c-45c4-5871-b26f-1ac9374c6841",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "ecl",
+            "dataType": "double",
+            "sourceColumn": "ecl",
+            "summarizeBy": "none",
+            "lineageTag": "b895a065-172e-552a-841d-65334d6d5241",
+            "formatString": "\\$#,0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Scenario",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"ecl_scenario\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Scenario ECL",
+            "expression": "SUM(Scenario[ecl])",
+            "formatString": "\\$#,0",
+            "lineageTag": "17ee2204-123b-56a0-baac-848519f77737"
+          }
+        ]
+      },
+      {
+        "name": "Monitoring",
+        "lineageTag": "6781b088-a7e3-5817-b6ee-ad234fc84b74",
+        "columns": [
+          {
+            "name": "issue_quarter",
+            "dataType": "string",
+            "sourceColumn": "issue_quarter",
+            "summarizeBy": "none",
+            "lineageTag": "71eb3eec-a29d-5c26-9ae0-90fbd3be62d5"
+          },
+          {
+            "name": "quarter_start",
+            "dataType": "dateTime",
+            "sourceColumn": "quarter_start",
+            "summarizeBy": "none",
+            "lineageTag": "f00cc3b0-ff3c-5dfb-a9ca-9e708f3133bd",
+            "isHidden": true
+          },
+          {
+            "name": "loans",
+            "dataType": "int64",
+            "sourceColumn": "loans",
+            "summarizeBy": "none",
+            "lineageTag": "57c4dc00-e0fc-500a-863a-623d0ec1d809"
+          },
+          {
+            "name": "mean_score",
+            "dataType": "double",
+            "sourceColumn": "mean_score",
+            "summarizeBy": "none",
+            "lineageTag": "a9f2f77d-8c5d-5b2d-bf3e-f831b141136b"
+          },
+          {
+            "name": "psi_score",
+            "dataType": "double",
+            "sourceColumn": "psi_score",
+            "summarizeBy": "none",
+            "lineageTag": "76df6f55-8000-5702-8b46-3919c351567c"
+          },
+          {
+            "name": "psi_status",
+            "dataType": "string",
+            "sourceColumn": "psi_status",
+            "summarizeBy": "none",
+            "lineageTag": "4cb50831-10ac-5a78-9f7a-f8a366d2425c"
+          },
+          {
+            "name": "max_csi",
+            "dataType": "double",
+            "sourceColumn": "max_csi",
+            "summarizeBy": "none",
+            "lineageTag": "54c67e6a-8e68-56a5-a9fc-37fd60d3433e"
+          },
+          {
+            "name": "max_csi_feature",
+            "dataType": "string",
+            "sourceColumn": "max_csi_feature",
+            "summarizeBy": "none",
+            "lineageTag": "553a82b1-012b-560f-b915-23763c04fe86"
+          },
+          {
+            "name": "gini",
+            "dataType": "double",
+            "sourceColumn": "gini",
+            "summarizeBy": "none",
+            "lineageTag": "77d8cf3d-8a00-5544-91c4-81e1a659b1aa"
+          },
+          {
+            "name": "gini_se",
+            "dataType": "double",
+            "sourceColumn": "gini_se",
+            "summarizeBy": "none",
+            "lineageTag": "b97fbb29-4c21-5aa1-9396-da80e6789690"
+          },
+          {
+            "name": "gini_status",
+            "dataType": "string",
+            "sourceColumn": "gini_status",
+            "summarizeBy": "none",
+            "lineageTag": "b7be432d-9641-5bae-9c2d-16e6b25f5388"
+          },
+          {
+            "name": "observed_12m",
+            "dataType": "double",
+            "sourceColumn": "observed_12m",
+            "summarizeBy": "none",
+            "lineageTag": "773e1a42-839a-5bb2-929c-b86d812b4841",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "scorecard_pd",
+            "dataType": "double",
+            "sourceColumn": "scorecard_pd",
+            "summarizeBy": "none",
+            "lineageTag": "c42d9d57-eabf-589c-ab77-488d8043d612",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "scorecard_ratio",
+            "dataType": "double",
+            "sourceColumn": "scorecard_ratio",
+            "summarizeBy": "none",
+            "lineageTag": "78b1040b-15de-54f7-b7e3-7bca08411392"
+          },
+          {
+            "name": "scorecard_status",
+            "dataType": "string",
+            "sourceColumn": "scorecard_status",
+            "summarizeBy": "none",
+            "lineageTag": "2ded9cb4-ecfa-5714-99a0-ba83f1a213b2"
+          },
+          {
+            "name": "production_pd",
+            "dataType": "double",
+            "sourceColumn": "production_pd",
+            "summarizeBy": "none",
+            "lineageTag": "b7da0ee6-aadc-593b-ad31-cf5ef94f0cf3",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "production_ratio",
+            "dataType": "double",
+            "sourceColumn": "production_ratio",
+            "summarizeBy": "none",
+            "lineageTag": "336293b8-3c14-5fc6-9a90-67f95b1e59d4"
+          },
+          {
+            "name": "production_status",
+            "dataType": "string",
+            "sourceColumn": "production_status",
+            "summarizeBy": "none",
+            "lineageTag": "477cfb9e-7102-58b1-8284-c4d2d626364c"
+          },
+          {
+            "name": "gini_6m",
+            "dataType": "double",
+            "sourceColumn": "gini_6m",
+            "summarizeBy": "none",
+            "lineageTag": "3e0e79be-bb8c-5491-9ea6-cd9bd1e745c5"
+          },
+          {
+            "name": "early_observed",
+            "dataType": "double",
+            "sourceColumn": "early_observed",
+            "summarizeBy": "none",
+            "lineageTag": "38164277-4e9b-58bc-b416-d5143209788a",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "early_expected",
+            "dataType": "double",
+            "sourceColumn": "early_expected",
+            "summarizeBy": "none",
+            "lineageTag": "a3e053e0-5343-5294-a23b-e8a72e691be8",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "early_ratio",
+            "dataType": "double",
+            "sourceColumn": "early_ratio",
+            "summarizeBy": "none",
+            "lineageTag": "7a700ed4-219e-52f8-902e-5263f17e16b8"
+          },
+          {
+            "name": "early_status",
+            "dataType": "string",
+            "sourceColumn": "early_status",
+            "summarizeBy": "none",
+            "lineageTag": "47241b5c-abc3-599e-9ffa-a3d7aa9beb84"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Monitoring",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"monitoring_quarter\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Score PSI",
+            "expression": "AVERAGE(Monitoring[psi_score])",
+            "formatString": "0.000",
+            "lineageTag": "6fb68f14-36be-5074-b02e-87030569d81b"
+          },
+          {
+            "name": "PSI Amber Line",
+            "expression": "0.10",
+            "formatString": "0.000",
+            "lineageTag": "5d9117dd-3f68-59b0-8393-fad8e15a9884"
+          },
+          {
+            "name": "PSI Red Line",
+            "expression": "0.25",
+            "formatString": "0.000",
+            "lineageTag": "1794a001-b224-5be1-820d-8184c975a1b5"
+          },
+          {
+            "name": "Gini",
+            "expression": "AVERAGE(Monitoring[gini])",
+            "formatString": "0.000",
+            "lineageTag": "89928c49-e7b2-53b7-a1f5-3c17aca4b786"
+          },
+          {
+            "name": "Gini 6m",
+            "expression": "AVERAGE(Monitoring[gini_6m])",
+            "formatString": "0.000",
+            "lineageTag": "7597dd83-d9b0-5c92-9f33-d3f3e14c1d36"
+          },
+          {
+            "name": "Gini Amber Line",
+            "expression": "0.3168",
+            "formatString": "0.000",
+            "lineageTag": "16734d64-5eff-52c0-9721-8bb4e4514a31"
+          },
+          {
+            "name": "Observed / Scorecard PD",
+            "expression": "AVERAGE(Monitoring[scorecard_ratio])",
+            "formatString": "0.00",
+            "lineageTag": "99048ac3-72da-52e6-ae81-eff205fb128e"
+          },
+          {
+            "name": "Observed / Production PD",
+            "expression": "AVERAGE(Monitoring[production_ratio])",
+            "formatString": "0.00",
+            "lineageTag": "125cfefb-8973-5cad-84ec-2b288e6c31f9"
+          },
+          {
+            "name": "Early Defaults Observed / Expected",
+            "expression": "AVERAGE(Monitoring[early_ratio])",
+            "formatString": "0.00",
+            "lineageTag": "39576d58-cecd-5d4e-9165-116f4c24a4d9"
+          }
+        ]
+      },
+      {
+        "name": "Feature Stability",
+        "lineageTag": "6b3c334f-2bed-5fda-b4bc-1a56c8dce899",
+        "columns": [
+          {
+            "name": "issue_quarter",
+            "dataType": "string",
+            "sourceColumn": "issue_quarter",
+            "summarizeBy": "none",
+            "lineageTag": "4d2f70ed-1beb-576b-9c0a-7c36e67ab539"
+          },
+          {
+            "name": "feature",
+            "dataType": "string",
+            "sourceColumn": "feature",
+            "summarizeBy": "none",
+            "lineageTag": "0564c1f9-3011-59c9-9798-661bdb175cac"
+          },
+          {
+            "name": "csi",
+            "dataType": "double",
+            "sourceColumn": "csi",
+            "summarizeBy": "none",
+            "lineageTag": "76f9751b-916d-5e0c-a9a6-5bed07131607"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none",
+            "lineageTag": "f4009fa4-6028-5c20-b617-106c83a936a1"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Feature Stability",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"monitoring_feature\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "CSI",
+            "expression": "AVERAGE('Feature Stability'[csi])",
+            "formatString": "0.000",
+            "lineageTag": "4a85f9a7-605a-5ca9-b129-bf4990cd0719"
+          }
+        ]
+      },
+      {
+        "name": "Vintage",
+        "lineageTag": "55104b09-7092-5987-ab32-2b7d5eba932a",
+        "columns": [
+          {
+            "name": "vintage_month",
+            "dataType": "dateTime",
+            "sourceColumn": "vintage_month",
+            "summarizeBy": "none",
+            "lineageTag": "a7a91f72-a140-55d9-bdcb-6be11ae5ff0e"
+          },
+          {
+            "name": "vintage_year",
+            "dataType": "int64",
+            "sourceColumn": "vintage_year",
+            "summarizeBy": "none",
+            "lineageTag": "a3e07586-0cd9-56c7-a05c-dc2cd3a9d432"
+          },
+          {
+            "name": "grade",
+            "dataType": "string",
+            "sourceColumn": "grade",
+            "summarizeBy": "none",
+            "lineageTag": "8a340cec-c4f0-5e2c-8db6-118bbe549092"
+          },
+          {
+            "name": "loans",
+            "dataType": "int64",
+            "sourceColumn": "loans",
+            "summarizeBy": "none",
+            "lineageTag": "1341c8f2-79f2-5541-b89d-ac439fb08674"
+          },
+          {
+            "name": "funded_amnt",
+            "dataType": "double",
+            "sourceColumn": "funded_amnt",
+            "summarizeBy": "none",
+            "lineageTag": "bfe5364d-e531-598c-a6e8-37f343a5ed3e",
+            "formatString": "\\$#,0"
+          },
+          {
+            "name": "defaults_12m",
+            "dataType": "int64",
+            "sourceColumn": "defaults_12m",
+            "summarizeBy": "none",
+            "lineageTag": "de7f9ac7-10dd-5f4b-92f8-267b61bd551f"
+          },
+          {
+            "name": "default_rate_12m",
+            "dataType": "double",
+            "sourceColumn": "default_rate_12m",
+            "summarizeBy": "none",
+            "lineageTag": "4f70541f-ce00-5e67-881e-0c6db30f15b2",
+            "formatString": "0.00%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Vintage",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = PostgreSQL.Database(Server, Database),",
+                "    Data = Source{[Schema = \"bi\", Item = \"vintage_default_12m\"]}[Data]",
+                "in",
+                "    Data"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Default Rate 12m",
+            "expression": "DIVIDE(SUM(Vintage[defaults_12m]), SUM(Vintage[loans]))",
+            "formatString": "0.00%",
+            "lineageTag": "eb240512-c6da-5cae-a324-d348d8e85b3d"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "ECL Loan_rating_now_Rating",
+        "fromTable": "ECL Loan",
+        "fromColumn": "rating_now",
+        "toTable": "Rating",
+        "toColumn": "rating"
+      },
+      {
+        "name": "PD Curve_rating_Rating",
+        "fromTable": "PD Curve",
+        "fromColumn": "rating",
+        "toTable": "Rating",
+        "toColumn": "rating"
+      },
+      {
+        "name": "Feature Stability_issue_quarter_Monitoring",
+        "fromTable": "Feature Stability",
+        "fromColumn": "issue_quarter",
+        "toTable": "Monitoring",
+        "toColumn": "issue_quarter"
+      }
+    ],
+    "expressions": [
+      {
+        "name": "Server",
+        "kind": "m",
+        "expression": "\"localhost:5432\" meta [IsParameterQuery = true, Type = \"Text\", IsParameterQueryRequired = true]"
+      },
+      {
+        "name": "Database",
+        "kind": "m",
+        "expression": "\"credit_dw\" meta [IsParameterQuery = true, Type = \"Text\", IsParameterQueryRequired = true]"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      }
+    ]
+  }
+}

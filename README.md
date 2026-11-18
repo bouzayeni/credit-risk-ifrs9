@@ -45,7 +45,7 @@ Each phase is checked before the next, with one commit per phase.
 | 5 | LGD from 174,565 completed recovery workouts (discounted at the loan rate, 90.9%), EAD from contractual amortisation ([report](docs/phase5_lgd_ead.md)) | Done |
 | 6 | IFRS 9 ECL: staging with updated FICO and delinquency, lifetime ECL engine, three Vasicek scenarios, matured-vintage back-test; $920.9M on $9.51bn (9.7%) ([report](docs/phase6_ecl.md)) | Done |
 | 7 | Monitoring by issue quarter: score PSI and feature CSI, Gini, calibration of scorecard and production PD, 6-month early warning, traffic lights ([report](docs/phase7_monitoring.md)) | Done |
-| 8 | Power BI risk dashboard | |
+| 8 | Results loaded to PostgreSQL (reconciled to the cent) and a Power BI project generated from the warehouse: 7 tables, 26 DAX measures, 6 pages ([guide](docs/phase8_powerbi.md)) | Done |
 | 9 | Documentation, model cards, limitations | |
 
 ## Setup
@@ -68,6 +68,8 @@ uv run python -m credit_risk.pd.run              # PD calibration, ratings, life
 uv run python -m credit_risk.loss.run            # LGD and EAD + docs/phase5_lgd_ead.md
 uv run python -m credit_risk.ecl.run             # IFRS 9 ECL + docs/phase6_ecl.md (~2 min)
 uv run python -m credit_risk.monitoring.run      # monitoring + docs/phase7_monitoring.md
+uv run python -m credit_risk.warehouse.load_results  # model results into PostgreSQL (bi views)
+uv run python -m credit_risk.bi.pbip             # Power BI project + docs/phase8_powerbi.md
 uv run pytest                                    # unit tests + warehouse checks (-m db)
 ```
 

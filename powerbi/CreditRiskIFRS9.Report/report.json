@@ -1,0 +1,348 @@
+{
+  "config": "{\"version\": \"5.59\", \"themeCollection\": {}, \"activeSectionIndex\": 0, \"defaultDrillFilterOtherVisuals\": true, \"settings\": {\"useStylableVisualContainerHeader\": true}}",
+  "layoutOptimization": 0,
+  "sections": [
+    {
+      "name": "04924fc663f15f13977a",
+      "displayName": "IFRS 9 ECL",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 0,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"0b9a55cb51f555eda73f\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.ECL\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL\"}, \"Name\": \"ECL Loan.ECL\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 264,
+          "y": 10,
+          "z": 1,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"ee5ed22004d258479b56\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 264, \"y\": 10, \"z\": 1, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Gross Carrying Amount\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gross Carrying Amount\"}, \"Name\": \"ECL Loan.Gross Carrying Amount\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Gross Carrying Amount'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 518,
+          "y": 10,
+          "z": 2,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"cfb64f67340a5cb985dc\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 518, \"y\": 10, \"z\": 2, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Coverage\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Coverage\"}, \"Name\": \"ECL Loan.Coverage\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Coverage'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 772,
+          "y": 10,
+          "z": 3,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"17d40f105ab45abfa229\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 772, \"y\": 10, \"z\": 3, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Stage 2 Share\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Stage 2 Share\"}, \"Name\": \"ECL Loan.Stage 2 Share\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Stage 2 Share'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 1026,
+          "y": 10,
+          "z": 4,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"9e38f3966f765e79a398\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1026, \"y\": 10, \"z\": 4, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Stage 3 Share\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Stage 3 Share\"}, \"Name\": \"ECL Loan.Stage 3 Share\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Stage 3 Share'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 130,
+          "z": 5,
+          "width": 620,
+          "height": 200,
+          "config": "{\"name\": \"f65b119652c55b0e83d7\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 130, \"z\": 5, \"width\": 620, \"height\": 200}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.stage_label\"}, {\"queryRef\": \"ECL Loan.Loans\"}, {\"queryRef\": \"ECL Loan.Gross Carrying Amount\"}, {\"queryRef\": \"ECL Loan.ECL\"}, {\"queryRef\": \"ECL Loan.Coverage\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"stage_label\"}, \"Name\": \"ECL Loan.stage_label\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Loans\"}, \"Name\": \"ECL Loan.Loans\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gross Carrying Amount\"}, \"Name\": \"ECL Loan.Gross Carrying Amount\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL\"}, \"Name\": \"ECL Loan.ECL\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Coverage\"}, \"Name\": \"ECL Loan.Coverage\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL by stage'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 640,
+          "y": 130,
+          "z": 6,
+          "width": 300,
+          "height": 200,
+          "config": "{\"name\": \"d918a3adc8a25a679edb\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 640, \"y\": 130, \"z\": 6, \"width\": 300, \"height\": 200}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.region\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"region\"}, \"Name\": \"ECL Loan.region\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Region'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 950,
+          "y": 130,
+          "z": 7,
+          "width": 320,
+          "height": 200,
+          "config": "{\"name\": \"ea597fef578a59bfb70a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 950, \"y\": 130, \"z\": 7, \"width\": 320, \"height\": 200}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.term_months\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"term_months\"}, \"Name\": \"ECL Loan.term_months\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Term (months)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 340,
+          "z": 8,
+          "width": 820,
+          "height": 370,
+          "config": "{\"name\": \"5d6c08a0ec4d5e538ccc\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 340, \"z\": 8, \"width\": 820, \"height\": 370}}], \"singleVisual\": {\"visualType\": \"columnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Rating.rating\"}], \"Series\": [{\"queryRef\": \"ECL Loan.stage_label\"}], \"Y\": [{\"queryRef\": \"ECL Loan.ECL\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Rating\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"rating\"}, \"Name\": \"Rating.rating\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"stage_label\"}, \"Name\": \"ECL Loan.stage_label\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"ECL\"}, \"Name\": \"ECL Loan.ECL\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL by current rating and stage'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 840,
+          "y": 340,
+          "z": 9,
+          "width": 430,
+          "height": 370,
+          "config": "{\"name\": \"8da94694c5735073b032\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 840, \"y\": 340, \"z\": 9, \"width\": 430, \"height\": 370}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Rating.rating\"}], \"Y\": [{\"queryRef\": \"ECL Loan.Coverage\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Rating\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"rating\"}, \"Name\": \"Rating.rating\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"Coverage\"}, \"Name\": \"ECL Loan.Coverage\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Coverage by current rating'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "a6d51d9593645c61821d",
+      "displayName": "Staging",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 1,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 413,
+          "height": 110,
+          "config": "{\"name\": \"4dd55cbf79d95d84a7df\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 413, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Loans\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Loans\"}, \"Name\": \"ECL Loan.Loans\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Loans'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 433,
+          "y": 10,
+          "z": 1,
+          "width": 413,
+          "height": 110,
+          "config": "{\"name\": \"f878f01a34695ab789c7\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 433, \"y\": 10, \"z\": 1, \"width\": 413, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Downgraded Share\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Downgraded Share\"}, \"Name\": \"ECL Loan.Downgraded Share\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Downgraded Share'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 10,
+          "z": 2,
+          "width": 413,
+          "height": 110,
+          "config": "{\"name\": \"fe5066feb10f55fa9ee1\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 10, \"z\": 2, \"width\": 413, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Forward 12m PD\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Forward 12m PD\"}, \"Name\": \"ECL Loan.Forward 12m PD\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Forward 12m PD'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 130,
+          "z": 3,
+          "width": 620,
+          "height": 230,
+          "config": "{\"name\": \"d2b06ee164455ba2a3cd\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 130, \"z\": 3, \"width\": 620, \"height\": 230}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.stage_reason\"}, {\"queryRef\": \"ECL Loan.Loans\"}, {\"queryRef\": \"ECL Loan.Gross Carrying Amount\"}, {\"queryRef\": \"ECL Loan.ECL\"}, {\"queryRef\": \"ECL Loan.Coverage\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"stage_reason\"}, \"Name\": \"ECL Loan.stage_reason\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Loans\"}, \"Name\": \"ECL Loan.Loans\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gross Carrying Amount\"}, \"Name\": \"ECL Loan.Gross Carrying Amount\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL\"}, \"Name\": \"ECL Loan.ECL\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Coverage\"}, \"Name\": \"ECL Loan.Coverage\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Why each loan is in its stage'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 640,
+          "y": 130,
+          "z": 4,
+          "width": 630,
+          "height": 230,
+          "config": "{\"name\": \"065c95ad8d3c54ca88d8\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 640, \"y\": 130, \"z\": 4, \"width\": 630, \"height\": 230}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"ECL Loan.loan_status\"}], \"Y\": [{\"queryRef\": \"ECL Loan.Coverage\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"loan_status\"}, \"Name\": \"ECL Loan.loan_status\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Coverage\"}, \"Name\": \"ECL Loan.Coverage\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Coverage by loan status'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 370,
+          "z": 5,
+          "width": 1260,
+          "height": 340,
+          "config": "{\"name\": \"92ca0e7ada5153d1931d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 370, \"z\": 5, \"width\": 1260, \"height\": 340}}], \"singleVisual\": {\"visualType\": \"pivotTable\", \"projections\": {\"Rows\": [{\"queryRef\": \"ECL Loan.rating_orig\"}], \"Columns\": [{\"queryRef\": \"ECL Loan.rating_now\"}], \"Values\": [{\"queryRef\": \"ECL Loan.Loans\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"rating_orig\"}, \"Name\": \"ECL Loan.rating_orig\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"rating_now\"}, \"Name\": \"ECL Loan.rating_now\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Loans\"}, \"Name\": \"ECL Loan.Loans\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Rating migration: origination (rows) to today (columns)'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "a4e17c4a43b056d1a80b",
+      "displayName": "Scenarios",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 2,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"90d0bcb27a805b5da37e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.ECL Upside\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL Upside\"}, \"Name\": \"ECL Loan.ECL Upside\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL Upside'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 264,
+          "y": 10,
+          "z": 1,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"78b5c4e7ab335bd8ba2d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 264, \"y\": 10, \"z\": 1, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.ECL Base\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL Base\"}, \"Name\": \"ECL Loan.ECL Base\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL Base'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 518,
+          "y": 10,
+          "z": 2,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"41183c1f681f525fa33a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 518, \"y\": 10, \"z\": 2, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.ECL Downside\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL Downside\"}, \"Name\": \"ECL Loan.ECL Downside\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL Downside'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 772,
+          "y": 10,
+          "z": 3,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"301383e8a57d5b8a996e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 772, \"y\": 10, \"z\": 3, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.ECL\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"ECL\"}, \"Name\": \"ECL Loan.ECL\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 1026,
+          "y": 10,
+          "z": 4,
+          "width": 244,
+          "height": 110,
+          "config": "{\"name\": \"33bb5cd1fa0c5f4babb9\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1026, \"y\": 10, \"z\": 4, \"width\": 244, \"height\": 110}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"ECL Loan.Scenario Uplift vs Base\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"ECL Loan\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Scenario Uplift vs Base\"}, \"Name\": \"ECL Loan.Scenario Uplift vs Base\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Scenario Uplift vs Base'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 130,
+          "z": 5,
+          "width": 620,
+          "height": 580,
+          "config": "{\"name\": \"203430f823855d129012\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 130, \"z\": 5, \"width\": 620, \"height\": 580}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Scenario.scenario\"}], \"Y\": [{\"queryRef\": \"Scenario.Scenario ECL\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Scenario\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"scenario\"}, \"Name\": \"Scenario.scenario\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Scenario ECL\"}, \"Name\": \"Scenario.Scenario ECL\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'ECL by scenario (probability-weighted last)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 640,
+          "y": 130,
+          "z": 6,
+          "width": 630,
+          "height": 580,
+          "config": "{\"name\": \"8307ec348d695671bdce\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 640, \"y\": 130, \"z\": 6, \"width\": 630, \"height\": 580}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"Rating.rating\"}, {\"queryRef\": \"Rating.pd_12m_upside\"}, {\"queryRef\": \"Rating.pd_12m\"}, {\"queryRef\": \"Rating.pd_12m_downside\"}, {\"queryRef\": \"Rating.lgd\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Rating\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"rating\"}, \"Name\": \"Rating.rating\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"pd_12m_upside\"}, \"Name\": \"Rating.pd_12m_upside\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"pd_12m\"}, \"Name\": \"Rating.pd_12m\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"pd_12m_downside\"}, \"Name\": \"Rating.pd_12m_downside\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"lgd\"}, \"Name\": \"Rating.lgd\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'12-month PD by scenario and LGD'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "21d4ad736dce5fe09039",
+      "displayName": "Lifetime PD",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 3,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 625,
+          "height": 700,
+          "config": "{\"name\": \"6fd90b562f5f5042b258\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 625, \"height\": 700}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"PD Curve.mob\"}], \"Series\": [{\"queryRef\": \"Rating.rating\"}], \"Y\": [{\"queryRef\": \"PD Curve.Cumulative PD 36m\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"PD Curve\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"Rating\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"mob\"}, \"Name\": \"PD Curve.mob\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"rating\"}, \"Name\": \"Rating.rating\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Cumulative PD 36m\"}, \"Name\": \"PD Curve.Cumulative PD 36m\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cumulative PD, 36-month loans'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 645,
+          "y": 10,
+          "z": 1,
+          "width": 625,
+          "height": 700,
+          "config": "{\"name\": \"b9e6a69566dc5cbfa2ac\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 645, \"y\": 10, \"z\": 1, \"width\": 625, \"height\": 700}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"PD Curve.mob\"}], \"Series\": [{\"queryRef\": \"Rating.rating\"}], \"Y\": [{\"queryRef\": \"PD Curve.Cumulative PD 60m\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"PD Curve\", \"Type\": 0}, {\"Name\": \"t1\", \"Entity\": \"Rating\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"mob\"}, \"Name\": \"PD Curve.mob\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t1\"}}, \"Property\": \"rating\"}, \"Name\": \"Rating.rating\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Cumulative PD 60m\"}, \"Name\": \"PD Curve.Cumulative PD 60m\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cumulative PD, 60-month loans'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "fff4861d454f5234892d",
+      "displayName": "Vintages",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 4,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 1260,
+          "height": 700,
+          "config": "{\"name\": \"f2aea8c12a9f5f178783\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 1260, \"height\": 700}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Vintage.vintage_year\"}], \"Series\": [{\"queryRef\": \"Vintage.grade\"}], \"Y\": [{\"queryRef\": \"Vintage.Default Rate 12m\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Vintage\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"vintage_year\"}, \"Name\": \"Vintage.vintage_year\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"grade\"}, \"Name\": \"Vintage.grade\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Default Rate 12m\"}, \"Name\": \"Vintage.Default Rate 12m\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'12-month default rate by issue year and Lending Club grade'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    },
+    {
+      "name": "6781b088a7e35817b6ee",
+      "displayName": "Monitoring",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 5,
+      "config": "{}",
+      "filters": "[]",
+      "visualContainers": [
+        {
+          "x": 10,
+          "y": 10,
+          "z": 0,
+          "width": 625,
+          "height": 345,
+          "config": "{\"name\": \"67f51a412b775137afb2\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 10, \"z\": 0, \"width\": 625, \"height\": 345}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Monitoring.issue_quarter\"}], \"Y\": [{\"queryRef\": \"Monitoring.Score PSI\"}, {\"queryRef\": \"Monitoring.PSI Amber Line\"}, {\"queryRef\": \"Monitoring.PSI Red Line\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Monitoring\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"issue_quarter\"}, \"Name\": \"Monitoring.issue_quarter\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Score PSI\"}, \"Name\": \"Monitoring.Score PSI\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"PSI Amber Line\"}, \"Name\": \"Monitoring.PSI Amber Line\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"PSI Red Line\"}, \"Name\": \"Monitoring.PSI Red Line\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Score stability (PSI vs 2013-2014)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 645,
+          "y": 10,
+          "z": 1,
+          "width": 625,
+          "height": 345,
+          "config": "{\"name\": \"b98401d2964e5b09adf0\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 645, \"y\": 10, \"z\": 1, \"width\": 625, \"height\": 345}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Monitoring.issue_quarter\"}], \"Y\": [{\"queryRef\": \"Monitoring.Gini\"}, {\"queryRef\": \"Monitoring.Gini 6m\"}, {\"queryRef\": \"Monitoring.Gini Amber Line\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Monitoring\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"issue_quarter\"}, \"Name\": \"Monitoring.issue_quarter\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gini\"}, \"Name\": \"Monitoring.Gini\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gini 6m\"}, \"Name\": \"Monitoring.Gini 6m\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Gini Amber Line\"}, \"Name\": \"Monitoring.Gini Amber Line\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Discrimination (Gini)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 10,
+          "y": 365,
+          "z": 2,
+          "width": 625,
+          "height": 345,
+          "config": "{\"name\": \"81c863c22733591b856a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 10, \"y\": 365, \"z\": 2, \"width\": 625, \"height\": 345}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"Monitoring.issue_quarter\"}], \"Y\": [{\"queryRef\": \"Monitoring.Observed / Scorecard PD\"}, {\"queryRef\": \"Monitoring.Observed / Production PD\"}, {\"queryRef\": \"Monitoring.Early Defaults Observed / Expected\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Monitoring\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"issue_quarter\"}, \"Name\": \"Monitoring.issue_quarter\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Observed / Scorecard PD\"}, \"Name\": \"Monitoring.Observed / Scorecard PD\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Observed / Production PD\"}, \"Name\": \"Monitoring.Observed / Production PD\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"Early Defaults Observed / Expected\"}, \"Name\": \"Monitoring.Early Defaults Observed / Expected\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Calibration: observed / predicted'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 645,
+          "y": 365,
+          "z": 3,
+          "width": 625,
+          "height": 345,
+          "config": "{\"name\": \"ce22b841166e53caa252\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 645, \"y\": 365, \"z\": 3, \"width\": 625, \"height\": 345}}], \"singleVisual\": {\"visualType\": \"pivotTable\", \"projections\": {\"Rows\": [{\"queryRef\": \"Feature Stability.feature\"}], \"Columns\": [{\"queryRef\": \"Feature Stability.issue_quarter\"}], \"Values\": [{\"queryRef\": \"Feature Stability.CSI\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t0\", \"Entity\": \"Feature Stability\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"feature\"}, \"Name\": \"Feature Stability.feature\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"issue_quarter\"}, \"Name\": \"Feature Stability.issue_quarter\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t0\"}}, \"Property\": \"CSI\"}, \"Name\": \"Feature Stability.CSI\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Feature stability (CSI)'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ]
+    }
+  ]
+}
