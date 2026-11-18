@@ -42,7 +42,7 @@ Each phase is checked before the next, with one commit per phase.
 | 2 | PostgreSQL star schema, BI views, least-privilege roles, reconciled load ([docs](docs/star_schema.md)) | Done |
 | 3 | Application scorecard: 12 features, WoE/IV, points scale; out-of-time test Gini 0.343 vs XGBoost 0.390 and LC sub-grade 0.399 ([report](docs/phase3_scorecard.md)) | Done |
 | 4 | Point-in-time PD calibration (2017 back-test 6.14% vs 6.13% observed), R1–R10 master scale, lifetime PD curves with prepayment as a competing risk ([report](docs/phase4_pd.md)) | Done |
-| 5 | LGD (recoveries, cure) and EAD (amortisation schedule, prepayment) | |
+| 5 | LGD from 174,565 completed recovery workouts (discounted at the loan rate, 90.9%), EAD from contractual amortisation ([report](docs/phase5_lgd_ead.md)) | Done |
 | 6 | IFRS 9 ECL: staging (SICR rules, 30 days past due backstop), discounting, base/upside/downside scenarios | |
 | 7 | Monitoring: PSI, Gini by vintage, calibration back-tests | |
 | 8 | Power BI risk dashboard | |
@@ -65,6 +65,7 @@ uv run python -m credit_risk.warehouse.setup_db  # PostgreSQL database, roles (s
 uv run python -m credit_risk.warehouse.load      # star schema + BI views, reconciled
 uv run python -m credit_risk.scorecard.train     # scorecard + docs/phase3_scorecard.md (~6 min)
 uv run python -m credit_risk.pd.run              # PD calibration, ratings, lifetime PD curves
+uv run python -m credit_risk.loss.run            # LGD and EAD + docs/phase5_lgd_ead.md
 uv run pytest                                    # unit tests + warehouse checks (-m db)
 ```
 

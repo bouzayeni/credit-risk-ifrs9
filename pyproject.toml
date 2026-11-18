@@ -53,6 +53,7 @@ select = ["E", "F", "W", "I", "B", "UP", "SIM", "N"]
 "credit_risk/scorecard/report.py" = ["E501"]
 "credit_risk/scorecard/train.py" = ["E501"]
 "credit_risk/pd/run.py" = ["E501"]
+"credit_risk/loss/run.py" = ["E501"]
 
 [tool.ruff.lint.isort]
 known-first-party = ["credit_risk"]
