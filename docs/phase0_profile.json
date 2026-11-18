@@ -1,0 +1,1698 @@
+{
+  "file": "accepted_2007_to_2018Q4.csv.gz",
+  "rows": 2260668,
+  "n_columns": 151,
+  "issue_date_range": [
+    "2007-06-01",
+    "2018-12-01"
+  ],
+  "loan_status": {
+    "Fully Paid": 1076751,
+    "Current": 878317,
+    "Charged Off": 268559,
+    "Late (31-120 days)": 21467,
+    "In Grace Period": 8436,
+    "Late (16-30 days)": 4349,
+    "Does not meet the credit policy. Status:Fully Paid": 1988,
+    "Does not meet the credit policy. Status:Charged Off": 761,
+    "Default": 40
+  },
+  "term": {
+    "36 months": 1609754,
+    "60 months": 650914
+  },
+  "grade": {
+    "A": 433027,
+    "B": 663557,
+    "C": 650053,
+    "D": 324424,
+    "E": 135639,
+    "F": 41800,
+    "G": 12168
+  },
+  "issue_year": {
+    "2007": 603,
+    "2008": 2393,
+    "2009": 5281,
+    "2010": 12537,
+    "2011": 21721,
+    "2012": 53367,
+    "2013": 134814,
+    "2014": 235629,
+    "2015": 421095,
+    "2016": 434407,
+    "2017": 443579,
+    "2018": 495242
+  },
+  "status_by_issue_year": {
+    "2007": {
+      "Does not meet the credit policy. Status:Fully Paid": 239,
+      "Fully Paid": 206,
+      "Does not meet the credit policy. Status:Charged Off": 113,
+      "Charged Off": 45
+    },
+    "2008": {
+      "Fully Paid": 1315,
+      "Does not meet the credit policy. Status:Fully Paid": 582,
+      "Does not meet the credit policy. Status:Charged Off": 249,
+      "Charged Off": 247
+    },
+    "2009": {
+      "Fully Paid": 4122,
+      "Charged Off": 594,
+      "Does not meet the credit policy. Status:Fully Paid": 436,
+      "Does not meet the credit policy. Status:Charged Off": 129
+    },
+    "2010": {
+      "Fully Paid": 10049,
+      "Charged Off": 1487,
+      "Does not meet the credit policy. Status:Fully Paid": 731,
+      "Does not meet the credit policy. Status:Charged Off": 270
+    },
+    "2011": {
+      "Fully Paid": 18424,
+      "Charged Off": 3297
+    },
+    "2012": {
+      "Fully Paid": 44723,
+      "Charged Off": 8644
+    },
+    "2013": {
+      "Fully Paid": 113780,
+      "Charged Off": 21024,
+      "Current": 6,
+      "Late (31-120 days)": 3,
+      "In Grace Period": 1
+    },
+    "2014": {
+      "Fully Paid": 181941,
+      "Charged Off": 41161,
+      "Current": 11919,
+      "Late (31-120 days)": 334,
+      "In Grace Period": 200,
+      "Late (16-30 days)": 73,
+      "Default": 1
+    },
+    "2015": {
+      "Fully Paid": 299742,
+      "Charged Off": 75803,
+      "Current": 43299,
+      "Late (31-120 days)": 1359,
+      "In Grace Period": 612,
+      "Late (16-30 days)": 279,
+      "Default": 1
+    },
+    "2016": {
+      "Fully Paid": 224853,
+      "Current": 134061,
+      "Charged Off": 68242,
+      "Late (31-120 days)": 4546,
+      "In Grace Period": 1793,
+      "Late (16-30 days)": 902,
+      "Default": 10
+    },
+    "2017": {
+      "Current": 261851,
+      "Fully Paid": 130152,
+      "Charged Off": 39148,
+      "Late (31-120 days)": 8004,
+      "In Grace Period": 2911,
+      "Late (16-30 days)": 1492,
+      "Default": 21
+    },
+    "2018": {
+      "Current": 427181,
+      "Fully Paid": 47444,
+      "Charged Off": 8867,
+      "Late (31-120 days)": 7221,
+      "In Grace Period": 2919,
+      "Late (16-30 days)": 1603,
+      "Default": 7
+    }
+  },
+  "numeric_summary": {
+    "loan_amnt": {
+      "min": 500.0,
+      "max": 40000.0,
+      "mean": 15046.931227849467
+    },
+    "funded_amnt": {
+      "min": 500.0,
+      "max": 40000.0,
+      "mean": 15041.664056818605
+    },
+    "int_rate": {
+      "min": 5.31,
+      "max": 30.99,
+      "mean": 13.092829115111106
+    },
+    "installment": {
+      "min": 4.93,
+      "max": 1719.83,
+      "mean": 445.8068228815555
+    },
+    "annual_inc": {
+      "min": 0.0,
+      "max": 110000000.0,
+      "mean": 77992.29068815942
+    },
+    "dti": {
+      "min": -1.0,
+      "max": 999.0,
+      "mean": 18.809949231819978
+    },
+    "total_pymnt": {
+      "min": 0.0,
+      "max": 63296.877916990896,
+      "mean": 12082.556829495923
+    },
+    "total_rec_prncp": {
+      "min": 0.0,
+      "max": 40000.0,
+      "mean": 9505.771587681164
+    },
+    "recoveries": {
+      "min": 0.0,
+      "max": 39859.55,
+      "mean": 143.87913522148887
+    },
+    "collection_recovery_fee": {
+      "min": 0.0,
+      "max": 7174.719,
+      "mean": 23.98256585933104
+    },
+    "out_prncp": {
+      "min": 0.0,
+      "max": 40000.0,
+      "mean": 4206.891439362171
+    }
+  },
+  "columns": {
+    "id": {
+      "dtype": "int64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "68407277",
+        "68355089",
+        "68341763"
+      ]
+    },
+    "member_id": {
+      "dtype": "float64",
+      "non_null": 0,
+      "null_pct": 100.0,
+      "examples": []
+    },
+    "loan_amnt": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "3600.0",
+        "24700.0",
+        "20000.0"
+      ]
+    },
+    "funded_amnt": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "3600.0",
+        "24700.0",
+        "20000.0"
+      ]
+    },
+    "funded_amnt_inv": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "3600.0",
+        "24700.0",
+        "20000.0"
+      ]
+    },
+    "term": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        " 36 months",
+        " 60 months",
+        " 36 months"
+      ]
+    },
+    "int_rate": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "13.99",
+        "11.99",
+        "10.78"
+      ]
+    },
+    "installment": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "123.03",
+        "820.28",
+        "432.66"
+      ]
+    },
+    "grade": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "C",
+        "B",
+        "F"
+      ]
+    },
+    "sub_grade": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "C4",
+        "C1",
+        "B4"
+      ]
+    },
+    "emp_title": {
+      "dtype": "object",
+      "non_null": 2093699,
+      "null_pct": 7.39,
+      "examples": [
+        "leadman",
+        "Engineer",
+        "truck driver"
+      ]
+    },
+    "emp_length": {
+      "dtype": "object",
+      "non_null": 2113761,
+      "null_pct": 6.5,
+      "examples": [
+        "10+ years",
+        "3 years",
+        "4 years"
+      ]
+    },
+    "home_ownership": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "MORTGAGE",
+        "RENT",
+        "OWN"
+      ]
+    },
+    "annual_inc": {
+      "dtype": "float64",
+      "non_null": 2260664,
+      "null_pct": 0.0,
+      "examples": [
+        "55000.0",
+        "65000.0",
+        "63000.0"
+      ]
+    },
+    "verification_status": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "Not Verified",
+        "Source Verified",
+        "Verified"
+      ]
+    },
+    "issue_d": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "Dec-2015",
+        "Nov-2015",
+        "Oct-2015"
+      ]
+    },
+    "loan_status": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "Fully Paid",
+        "Current",
+        "Charged Off"
+      ]
+    },
+    "pymnt_plan": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "n",
+        "y",
+        "n"
+      ]
+    },
+    "url": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "https://lendingclub.com/browse/loanDetail.action?loan_id=68407277",
+        "https://lendingclub.com/browse/loanDetail.action?loan_id=68355089",
+        "https://lendingclub.com/browse/loanDetail.action?loan_id=68341763"
+      ]
+    },
+    "desc": {
+      "dtype": "object",
+      "non_null": 126065,
+      "null_pct": 94.42,
+      "examples": [
+        "We knew that using our credit cards to finance an adoption would squeeze us, but then medical and other unexpected expenses made the situation almost impossible. We are a stable family in a stable community. We just need to break a cycle of debt that is getting worse.",
+        "I had a bad year two years ago, with some late and missed payments. I'm doing much better now, but I've got fees and some higher interest bits that have added up on top of the other stuff, and it's a little crazy. I'm hoping doing it thru Lending Club will make it easier - and cheaper - to pay off.",
+        "Lenders,  I have the ability to pay off my current debt but, would like the ability to be able to put some extra money off to the side and build my personal savings account.  The lower interest rate of roughly 7% would enable me to do that.  I'm willing to share my credit report to anyone that is willing to help out. Please consider my application.  Thank you,"
+      ]
+    },
+    "purpose": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "debt_consolidation",
+        "small_business",
+        "home_improvement"
+      ]
+    },
+    "title": {
+      "dtype": "object",
+      "non_null": 2237342,
+      "null_pct": 1.03,
+      "examples": [
+        "Debt consolidation",
+        "Business",
+        "Major purchase"
+      ]
+    },
+    "zip_code": {
+      "dtype": "object",
+      "non_null": 2260667,
+      "null_pct": 0.0,
+      "examples": [
+        "190xx",
+        "577xx",
+        "605xx"
+      ]
+    },
+    "addr_state": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "PA",
+        "SD",
+        "IL"
+      ]
+    },
+    "dti": {
+      "dtype": "float64",
+      "non_null": 2258957,
+      "null_pct": 0.08,
+      "examples": [
+        "5.91",
+        "16.06",
+        "10.78"
+      ]
+    },
+    "delinq_2yrs": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "earliest_cr_line": {
+      "dtype": "object",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "Aug-2003",
+        "Dec-1999",
+        "Aug-2000"
+      ]
+    },
+    "fico_range_low": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "675.0",
+        "715.0",
+        "695.0"
+      ]
+    },
+    "fico_range_high": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "679.0",
+        "719.0",
+        "699.0"
+      ]
+    },
+    "inq_last_6mths": {
+      "dtype": "float64",
+      "non_null": 2260638,
+      "null_pct": 0.0,
+      "examples": [
+        "1.0",
+        "4.0",
+        "0.0"
+      ]
+    },
+    "mths_since_last_delinq": {
+      "dtype": "float64",
+      "non_null": 1102166,
+      "null_pct": 51.25,
+      "examples": [
+        "30.0",
+        "6.0",
+        "12.0"
+      ]
+    },
+    "mths_since_last_record": {
+      "dtype": "float64",
+      "non_null": 359156,
+      "null_pct": 84.11,
+      "examples": [
+        "106.0",
+        "75.0",
+        "30.0"
+      ]
+    },
+    "open_acc": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "7.0",
+        "22.0",
+        "6.0"
+      ]
+    },
+    "pub_rec": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "revol_bal": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "2765.0",
+        "21470.0",
+        "7869.0"
+      ]
+    },
+    "revol_util": {
+      "dtype": "float64",
+      "non_null": 2258866,
+      "null_pct": 0.08,
+      "examples": [
+        "29.7",
+        "19.2",
+        "56.2"
+      ]
+    },
+    "total_acc": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "13.0",
+        "38.0",
+        "18.0"
+      ]
+    },
+    "initial_list_status": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "w",
+        "f",
+        "w"
+      ]
+    },
+    "out_prncp": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "15897.65",
+        "9912.88"
+      ]
+    },
+    "out_prncp_inv": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "15897.65",
+        "9912.88"
+      ]
+    },
+    "total_pymnt": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "4421.723916800001",
+        "25679.66",
+        "22705.9242938784"
+      ]
+    },
+    "total_pymnt_inv": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "4421.72",
+        "25679.66",
+        "22705.92"
+      ]
+    },
+    "total_rec_prncp": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "3600.0",
+        "24700.0",
+        "20000.0"
+      ]
+    },
+    "total_rec_int": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "821.72",
+        "979.66",
+        "2705.92"
+      ]
+    },
+    "total_rec_late_fee": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "22.59",
+        "161.46"
+      ]
+    },
+    "recoveries": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "1618.9",
+        "368.37"
+      ]
+    },
+    "collection_recovery_fee": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "291.402",
+        "66.3066"
+      ]
+    },
+    "last_pymnt_d": {
+      "dtype": "object",
+      "non_null": 2258241,
+      "null_pct": 0.11,
+      "examples": [
+        "Jan-2019",
+        "Jun-2016",
+        "Jun-2017"
+      ]
+    },
+    "last_pymnt_amnt": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "122.67",
+        "926.35",
+        "15813.3"
+      ]
+    },
+    "next_pymnt_d": {
+      "dtype": "object",
+      "non_null": 915358,
+      "null_pct": 59.51,
+      "examples": [
+        "Apr-2019",
+        "Mar-2019",
+        "Dec-2018"
+      ]
+    },
+    "last_credit_pull_d": {
+      "dtype": "object",
+      "non_null": 2260596,
+      "null_pct": 0.0,
+      "examples": [
+        "Mar-2019",
+        "Mar-2018",
+        "May-2017"
+      ]
+    },
+    "last_fico_range_high": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "564.0",
+        "699.0",
+        "704.0"
+      ]
+    },
+    "last_fico_range_low": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "560.0",
+        "695.0",
+        "700.0"
+      ]
+    },
+    "collections_12_mths_ex_med": {
+      "dtype": "float64",
+      "non_null": 2260523,
+      "null_pct": 0.01,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "mths_since_last_major_derog": {
+      "dtype": "float64",
+      "non_null": 580775,
+      "null_pct": 74.31,
+      "examples": [
+        "30.0",
+        "3.0",
+        "75.0"
+      ]
+    },
+    "policy_code": {
+      "dtype": "float64",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "1.0",
+        "1.0",
+        "1.0"
+      ]
+    },
+    "application_type": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "Individual",
+        "Joint App",
+        "Individual"
+      ]
+    },
+    "annual_inc_joint": {
+      "dtype": "float64",
+      "non_null": 120710,
+      "null_pct": 94.66,
+      "examples": [
+        "71000.0",
+        "100000.0",
+        "77000.0"
+      ]
+    },
+    "dti_joint": {
+      "dtype": "float64",
+      "non_null": 120706,
+      "null_pct": 94.66,
+      "examples": [
+        "13.85",
+        "16.4",
+        "15.4"
+      ]
+    },
+    "verification_status_joint": {
+      "dtype": "object",
+      "non_null": 115730,
+      "null_pct": 94.88,
+      "examples": [
+        "Not Verified",
+        "Not Verified",
+        "Not Verified"
+      ]
+    },
+    "acc_now_delinq": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "tot_coll_amt": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "722.0",
+        "0.0",
+        "8341.0"
+      ]
+    },
+    "tot_cur_bal": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "144904.0",
+        "204396.0",
+        "189699.0"
+      ]
+    },
+    "open_acc_6m": {
+      "dtype": "float64",
+      "non_null": 1394538,
+      "null_pct": 38.31,
+      "examples": [
+        "2.0",
+        "1.0",
+        "0.0"
+      ]
+    },
+    "open_act_il": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "2.0",
+        "1.0",
+        "3.0"
+      ]
+    },
+    "open_il_12m": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "0.0",
+        "2.0",
+        "1.0"
+      ]
+    },
+    "open_il_24m": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "1.0",
+        "4.0",
+        "3.0"
+      ]
+    },
+    "mths_since_rcnt_il": {
+      "dtype": "float64",
+      "non_null": 1350744,
+      "null_pct": 40.25,
+      "examples": [
+        "21.0",
+        "19.0",
+        "23.0"
+      ]
+    },
+    "total_bal_il": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "4981.0",
+        "18005.0",
+        "10827.0"
+      ]
+    },
+    "il_util": {
+      "dtype": "float64",
+      "non_null": 1191818,
+      "null_pct": 47.28,
+      "examples": [
+        "36.0",
+        "73.0",
+        "70.0"
+      ]
+    },
+    "open_rv_12m": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "3.0",
+        "2.0",
+        "0.0"
+      ]
+    },
+    "open_rv_24m": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "3.0",
+        "2.0",
+        "1.0"
+      ]
+    },
+    "max_bal_bc": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "722.0",
+        "6472.0",
+        "2081.0"
+      ]
+    },
+    "all_util": {
+      "dtype": "float64",
+      "non_null": 1394320,
+      "null_pct": 38.32,
+      "examples": [
+        "34.0",
+        "29.0",
+        "65.0"
+      ]
+    },
+    "total_rev_hi_lim": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "9300.0",
+        "111800.0",
+        "14000.0"
+      ]
+    },
+    "inq_fi": {
+      "dtype": "float64",
+      "non_null": 1394539,
+      "null_pct": 38.31,
+      "examples": [
+        "3.0",
+        "0.0",
+        "2.0"
+      ]
+    },
+    "total_cu_tl": {
+      "dtype": "float64",
+      "non_null": 1394538,
+      "null_pct": 38.31,
+      "examples": [
+        "1.0",
+        "0.0",
+        "5.0"
+      ]
+    },
+    "inq_last_12m": {
+      "dtype": "float64",
+      "non_null": 1394538,
+      "null_pct": 38.31,
+      "examples": [
+        "4.0",
+        "6.0",
+        "1.0"
+      ]
+    },
+    "acc_open_past_24mths": {
+      "dtype": "float64",
+      "non_null": 2210638,
+      "null_pct": 2.21,
+      "examples": [
+        "4.0",
+        "6.0",
+        "2.0"
+      ]
+    },
+    "avg_cur_bal": {
+      "dtype": "float64",
+      "non_null": 2190322,
+      "null_pct": 3.11,
+      "examples": [
+        "20701.0",
+        "9733.0",
+        "31617.0"
+      ]
+    },
+    "bc_open_to_buy": {
+      "dtype": "float64",
+      "non_null": 2185733,
+      "null_pct": 3.31,
+      "examples": [
+        "1506.0",
+        "57830.0",
+        "2737.0"
+      ]
+    },
+    "bc_util": {
+      "dtype": "float64",
+      "non_null": 2184597,
+      "null_pct": 3.36,
+      "examples": [
+        "37.2",
+        "27.1",
+        "55.9"
+      ]
+    },
+    "chargeoff_within_12_mths": {
+      "dtype": "float64",
+      "non_null": 2260523,
+      "null_pct": 0.01,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "delinq_amnt": {
+      "dtype": "float64",
+      "non_null": 2260639,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "687.0",
+        "40.0"
+      ]
+    },
+    "mo_sin_old_il_acct": {
+      "dtype": "float64",
+      "non_null": 2121597,
+      "null_pct": 6.15,
+      "examples": [
+        "148.0",
+        "113.0",
+        "125.0"
+      ]
+    },
+    "mo_sin_old_rev_tl_op": {
+      "dtype": "float64",
+      "non_null": 2190391,
+      "null_pct": 3.11,
+      "examples": [
+        "128.0",
+        "192.0",
+        "184.0"
+      ]
+    },
+    "mo_sin_rcnt_rev_tl_op": {
+      "dtype": "float64",
+      "non_null": 2190391,
+      "null_pct": 3.11,
+      "examples": [
+        "3.0",
+        "2.0",
+        "14.0"
+      ]
+    },
+    "mo_sin_rcnt_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "3.0",
+        "2.0",
+        "14.0"
+      ]
+    },
+    "mort_acc": {
+      "dtype": "float64",
+      "non_null": 2210638,
+      "null_pct": 2.21,
+      "examples": [
+        "1.0",
+        "4.0",
+        "5.0"
+      ]
+    },
+    "mths_since_recent_bc": {
+      "dtype": "float64",
+      "non_null": 2187256,
+      "null_pct": 3.25,
+      "examples": [
+        "4.0",
+        "2.0",
+        "101.0"
+      ]
+    },
+    "mths_since_recent_bc_dlq": {
+      "dtype": "float64",
+      "non_null": 519701,
+      "null_pct": 77.01,
+      "examples": [
+        "69.0",
+        "12.0",
+        "48.0"
+      ]
+    },
+    "mths_since_recent_inq": {
+      "dtype": "float64",
+      "non_null": 1965233,
+      "null_pct": 13.07,
+      "examples": [
+        "4.0",
+        "0.0",
+        "10.0"
+      ]
+    },
+    "mths_since_recent_revol_delinq": {
+      "dtype": "float64",
+      "non_null": 740359,
+      "null_pct": 67.25,
+      "examples": [
+        "69.0",
+        "6.0",
+        "12.0"
+      ]
+    },
+    "num_accts_ever_120_pd": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "2.0",
+        "0.0",
+        "1.0"
+      ]
+    },
+    "num_actv_bc_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "2.0",
+        "5.0",
+        "4.0"
+      ]
+    },
+    "num_actv_rev_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "4.0",
+        "5.0",
+        "3.0"
+      ]
+    },
+    "num_bc_sats": {
+      "dtype": "float64",
+      "non_null": 2202078,
+      "null_pct": 2.59,
+      "examples": [
+        "2.0",
+        "13.0",
+        "8.0"
+      ]
+    },
+    "num_bc_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "5.0",
+        "17.0",
+        "4.0"
+      ]
+    },
+    "num_il_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "3.0",
+        "6.0",
+        "2.0"
+      ]
+    },
+    "num_op_rev_tl": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "4.0",
+        "20.0",
+        "10.0"
+      ]
+    },
+    "num_rev_accts": {
+      "dtype": "float64",
+      "non_null": 2190391,
+      "null_pct": 3.11,
+      "examples": [
+        "9.0",
+        "27.0",
+        "7.0"
+      ]
+    },
+    "num_rev_tl_bal_gt_0": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "4.0",
+        "5.0",
+        "3.0"
+      ]
+    },
+    "num_sats": {
+      "dtype": "float64",
+      "non_null": 2202078,
+      "null_pct": 2.59,
+      "examples": [
+        "7.0",
+        "22.0",
+        "6.0"
+      ]
+    },
+    "num_tl_120dpd_2m": {
+      "dtype": "float64",
+      "non_null": 2107011,
+      "null_pct": 6.8,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "num_tl_30dpd": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "num_tl_90g_dpd_24m": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "num_tl_op_past_12m": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "3.0",
+        "2.0",
+        "0.0"
+      ]
+    },
+    "pct_tl_nvr_dlq": {
+      "dtype": "float64",
+      "non_null": 2190237,
+      "null_pct": 3.12,
+      "examples": [
+        "76.9",
+        "97.4",
+        "100.0"
+      ]
+    },
+    "percent_bc_gt_75": {
+      "dtype": "float64",
+      "non_null": 2185289,
+      "null_pct": 3.33,
+      "examples": [
+        "0.0",
+        "7.7",
+        "50.0"
+      ]
+    },
+    "pub_rec_bankruptcies": {
+      "dtype": "float64",
+      "non_null": 2259303,
+      "null_pct": 0.06,
+      "examples": [
+        "0.0",
+        "1.0",
+        "2.0"
+      ]
+    },
+    "tax_liens": {
+      "dtype": "float64",
+      "non_null": 2260563,
+      "null_pct": 0.0,
+      "examples": [
+        "0.0",
+        "2.0",
+        "1.0"
+      ]
+    },
+    "tot_hi_cred_lim": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "178050.0",
+        "314017.0",
+        "218418.0"
+      ]
+    },
+    "total_bal_ex_mort": {
+      "dtype": "float64",
+      "non_null": 2210638,
+      "null_pct": 2.21,
+      "examples": [
+        "7746.0",
+        "39475.0",
+        "18696.0"
+      ]
+    },
+    "total_bc_limit": {
+      "dtype": "float64",
+      "non_null": 2210638,
+      "null_pct": 2.21,
+      "examples": [
+        "2400.0",
+        "79300.0",
+        "6200.0"
+      ]
+    },
+    "total_il_high_credit_limit": {
+      "dtype": "float64",
+      "non_null": 2190392,
+      "null_pct": 3.11,
+      "examples": [
+        "13734.0",
+        "24667.0",
+        "14877.0"
+      ]
+    },
+    "revol_bal_joint": {
+      "dtype": "float64",
+      "non_null": 108020,
+      "null_pct": 95.22,
+      "examples": [
+        "7101.0",
+        "22716.0",
+        "16495.0"
+      ]
+    },
+    "sec_app_fico_range_low": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "610.0",
+        "665.0",
+        "670.0"
+      ]
+    },
+    "sec_app_fico_range_high": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "614.0",
+        "669.0",
+        "674.0"
+      ]
+    },
+    "sec_app_earliest_cr_line": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "Feb-2005",
+        "Oct-1987",
+        "Feb-2013"
+      ]
+    },
+    "sec_app_inq_last_6mths": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "3.0",
+        "0.0",
+        "2.0"
+      ]
+    },
+    "sec_app_mort_acc": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "1.0",
+        "0.0",
+        "2.0"
+      ]
+    },
+    "sec_app_open_acc": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "14.0",
+        "8.0",
+        "10.0"
+      ]
+    },
+    "sec_app_revol_util": {
+      "dtype": "float64",
+      "non_null": 106184,
+      "null_pct": 95.3,
+      "examples": [
+        "80.0",
+        "44.1",
+        "59.0"
+      ]
+    },
+    "sec_app_open_act_il": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "11.0",
+        "1.0",
+        "0.0"
+      ]
+    },
+    "sec_app_num_rev_accts": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "8.0",
+        "6.0",
+        "16.0"
+      ]
+    },
+    "sec_app_chargeoff_within_12_mths": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "0.0",
+        "4.0",
+        "14.0"
+      ]
+    },
+    "sec_app_collections_12_mths_ex_med": {
+      "dtype": "float64",
+      "non_null": 108021,
+      "null_pct": 95.22,
+      "examples": [
+        "2.0",
+        "0.0",
+        "1.0"
+      ]
+    },
+    "sec_app_mths_since_last_major_derog": {
+      "dtype": "float64",
+      "non_null": 35942,
+      "null_pct": 98.41,
+      "examples": [
+        "37.0",
+        "23.0",
+        "26.0"
+      ]
+    },
+    "hardship_flag": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "N",
+        "Y",
+        "N"
+      ]
+    },
+    "hardship_type": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "INTEREST ONLY-3 MONTHS DEFERRAL",
+        "INTEREST ONLY-3 MONTHS DEFERRAL",
+        "INTEREST ONLY-3 MONTHS DEFERRAL"
+      ]
+    },
+    "hardship_reason": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "NATURAL_DISASTER",
+        "DIVORCE",
+        "EXCESSIVE_OBLIGATIONS"
+      ]
+    },
+    "hardship_status": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "BROKEN",
+        "COMPLETED",
+        "ACTIVE"
+      ]
+    },
+    "deferral_term": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "3.0",
+        "3.0",
+        "3.0"
+      ]
+    },
+    "hardship_amount": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "47.01",
+        "147.47",
+        "213.98"
+      ]
+    },
+    "hardship_start_date": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "Sep-2017",
+        "Jul-2017",
+        "Sep-2018"
+      ]
+    },
+    "hardship_end_date": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "Dec-2017",
+        "Nov-2017",
+        "Oct-2017"
+      ]
+    },
+    "payment_plan_start_date": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "Oct-2017",
+        "Sep-2017",
+        "Aug-2017"
+      ]
+    },
+    "hardship_length": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "3.0",
+        "3.0",
+        "3.0"
+      ]
+    },
+    "hardship_dpd": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "26.0",
+        "0.0",
+        "18.0"
+      ]
+    },
+    "hardship_loan_status": {
+      "dtype": "object",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "Late (16-30 days)",
+        "Current",
+        "Late (31-120 days)"
+      ]
+    },
+    "orig_projected_additional_accrued_interest": {
+      "dtype": "float64",
+      "non_null": 8651,
+      "null_pct": 99.62,
+      "examples": [
+        "442.41",
+        "641.94",
+        "108.21"
+      ]
+    },
+    "hardship_payoff_balance_amount": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "3058.14",
+        "12014.81",
+        "18761.48"
+      ]
+    },
+    "hardship_last_payment_amount": {
+      "dtype": "float64",
+      "non_null": 10917,
+      "null_pct": 99.52,
+      "examples": [
+        "61.23",
+        "6.27",
+        "275.35"
+      ]
+    },
+    "disbursement_method": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "Cash",
+        "Cash",
+        "Cash"
+      ]
+    },
+    "debt_settlement_flag": {
+      "dtype": "object",
+      "non_null": 2260668,
+      "null_pct": 0.0,
+      "examples": [
+        "N",
+        "Y",
+        "N"
+      ]
+    },
+    "debt_settlement_flag_date": {
+      "dtype": "object",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "Nov-2017",
+        "May-2018",
+        "Feb-2019"
+      ]
+    },
+    "settlement_status": {
+      "dtype": "object",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "COMPLETE",
+        "BROKEN",
+        "ACTIVE"
+      ]
+    },
+    "settlement_date": {
+      "dtype": "object",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "Sep-2017",
+        "Nov-2017",
+        "Jan-2018"
+      ]
+    },
+    "settlement_amount": {
+      "dtype": "float64",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "9915.0",
+        "2761.0",
+        "4382.0"
+      ]
+    },
+    "settlement_percentage": {
+      "dtype": "float64",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "55.0",
+        "50.01",
+        "44.99"
+      ]
+    },
+    "settlement_term": {
+      "dtype": "float64",
+      "non_null": 34246,
+      "null_pct": 98.49,
+      "examples": [
+        "1.0",
+        "10.0",
+        "12.0"
+      ]
+    }
+  }
+}

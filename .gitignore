@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Data: downloaded or generated, never committed (size + licence hygiene).
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Model artifacts
+models/*
+!models/.gitkeep
+mlruns/
+
+# Power BI: commit PBIP text, not binaries or caches
+*.pbix
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
