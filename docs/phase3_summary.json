@@ -1,0 +1,1470 @@
+{
+  "splits": {
+    "train": {
+      "loans": 463596,
+      "default_rate": 0.0483,
+      "gini": 0.352,
+      "ks": 0.2555
+    },
+    "valid": {
+      "loans": 421095,
+      "default_rate": 0.0573,
+      "gini": 0.3752,
+      "ks": 0.2745
+    },
+    "test": {
+      "loans": 877986,
+      "default_rate": 0.0635,
+      "gini": 0.3427,
+      "ks": 0.2451,
+      "gini_ci95": [
+        0.3381,
+        0.3472
+      ]
+    }
+  },
+  "test_by_year": {
+    "2016": {
+      "loans": 434407,
+      "default_rate": 0.0657,
+      "gini": 0.3466,
+      "ks": 0.2494
+    },
+    "2017": {
+      "loans": 443579,
+      "default_rate": 0.0613,
+      "gini": 0.3375,
+      "ks": 0.2422
+    }
+  },
+  "iv": [
+    {
+      "feature": "fico",
+      "iv": 0.092,
+      "bins": 10
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "iv": 0.0693,
+      "bins": 9
+    },
+    {
+      "feature": "num_tl_op_past_12m",
+      "iv": 0.0629,
+      "bins": 7
+    },
+    {
+      "feature": "loan_to_income",
+      "iv": 0.0597,
+      "bins": 10
+    },
+    {
+      "feature": "annual_inc",
+      "iv": 0.059,
+      "bins": 12
+    },
+    {
+      "feature": "inq_last_6mths",
+      "iv": 0.0558,
+      "bins": 4
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "iv": 0.0496,
+      "bins": 12
+    },
+    {
+      "feature": "mo_sin_rcnt_tl",
+      "iv": 0.0474,
+      "bins": 11
+    },
+    {
+      "feature": "purpose",
+      "iv": 0.0469,
+      "bins": 8
+    },
+    {
+      "feature": "dti",
+      "iv": 0.0449,
+      "bins": 10
+    },
+    {
+      "feature": "mths_since_recent_inq",
+      "iv": 0.0434,
+      "bins": 13
+    },
+    {
+      "feature": "tot_hi_cred_lim",
+      "iv": 0.0412,
+      "bins": 10
+    },
+    {
+      "feature": "total_bc_limit",
+      "iv": 0.0369,
+      "bins": 11
+    },
+    {
+      "feature": "avg_cur_bal",
+      "iv": 0.0349,
+      "bins": 7
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "iv": 0.0344,
+      "bins": 11
+    },
+    {
+      "feature": "term",
+      "iv": 0.0335,
+      "bins": 2
+    },
+    {
+      "feature": "tot_cur_bal",
+      "iv": 0.0328,
+      "bins": 7
+    },
+    {
+      "feature": "mths_since_recent_bc",
+      "iv": 0.0306,
+      "bins": 8
+    },
+    {
+      "feature": "credit_history_months",
+      "iv": 0.0301,
+      "bins": 11
+    },
+    {
+      "feature": "home_ownership",
+      "iv": 0.0281,
+      "bins": 4
+    },
+    {
+      "feature": "mo_sin_rcnt_rev_tl_op",
+      "iv": 0.0271,
+      "bins": 10
+    },
+    {
+      "feature": "total_rev_hi_lim",
+      "iv": 0.0262,
+      "bins": 10
+    },
+    {
+      "feature": "mort_acc",
+      "iv": 0.0261,
+      "bins": 7
+    },
+    {
+      "feature": "percent_bc_gt_75",
+      "iv": 0.0248,
+      "bins": 8
+    },
+    {
+      "feature": "bc_util",
+      "iv": 0.0228,
+      "bins": 8
+    },
+    {
+      "feature": "verification_status",
+      "iv": 0.0213,
+      "bins": 3
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "iv": 0.0204,
+      "bins": 9
+    },
+    {
+      "feature": "revol_util",
+      "iv": 0.016,
+      "bins": 8
+    },
+    {
+      "feature": "emp_length",
+      "iv": 0.0146,
+      "bins": 6
+    },
+    {
+      "feature": "total_acc",
+      "iv": 0.0076,
+      "bins": 8
+    },
+    {
+      "feature": "revol_bal",
+      "iv": 0.007,
+      "bins": 10
+    },
+    {
+      "feature": "num_bc_tl",
+      "iv": 0.0066,
+      "bins": 6
+    },
+    {
+      "feature": "num_bc_sats",
+      "iv": 0.0047,
+      "bins": 6
+    },
+    {
+      "feature": "num_rev_accts",
+      "iv": 0.0046,
+      "bins": 9
+    },
+    {
+      "feature": "num_actv_bc_tl",
+      "iv": 0.0035,
+      "bins": 7
+    },
+    {
+      "feature": "pct_tl_nvr_dlq",
+      "iv": 0.0031,
+      "bins": 6
+    },
+    {
+      "feature": "total_il_high_credit_limit",
+      "iv": 0.0026,
+      "bins": 7
+    },
+    {
+      "feature": "mths_since_last_delinq",
+      "iv": 0.0022,
+      "bins": 6
+    },
+    {
+      "feature": "loan_amnt",
+      "iv": 0.0018,
+      "bins": 3
+    },
+    {
+      "feature": "total_bal_ex_mort",
+      "iv": 0.0018,
+      "bins": 6
+    },
+    {
+      "feature": "num_il_tl",
+      "iv": 0.0016,
+      "bins": 4
+    },
+    {
+      "feature": "open_acc",
+      "iv": 0.0015,
+      "bins": 4
+    },
+    {
+      "feature": "num_op_rev_tl",
+      "iv": 0.0014,
+      "bins": 6
+    },
+    {
+      "feature": "num_tl_90g_dpd_24m",
+      "iv": 0.0014,
+      "bins": 3
+    },
+    {
+      "feature": "tot_coll_amt",
+      "iv": 0.0012,
+      "bins": 3
+    },
+    {
+      "feature": "num_rev_tl_bal_gt_0",
+      "iv": 0.0012,
+      "bins": 5
+    },
+    {
+      "feature": "mths_since_last_record",
+      "iv": 0.0011,
+      "bins": 5
+    },
+    {
+      "feature": "num_actv_rev_tl",
+      "iv": 0.0011,
+      "bins": 6
+    },
+    {
+      "feature": "num_accts_ever_120_pd",
+      "iv": 0.001,
+      "bins": 2
+    },
+    {
+      "feature": "num_sats",
+      "iv": 0.001,
+      "bins": 5
+    },
+    {
+      "feature": "num_tl_30dpd",
+      "iv": 0.001,
+      "bins": 2
+    },
+    {
+      "feature": "delinq_2yrs",
+      "iv": 0.0009,
+      "bins": 2
+    },
+    {
+      "feature": "num_tl_120dpd_2m",
+      "iv": 0.0008,
+      "bins": 2
+    },
+    {
+      "feature": "mths_since_last_major_derog",
+      "iv": 0.0005,
+      "bins": 6
+    },
+    {
+      "feature": "collections_12_mths_ex_med",
+      "iv": 0.0002,
+      "bins": 2
+    },
+    {
+      "feature": "chargeoff_within_12_mths",
+      "iv": 0.0002,
+      "bins": 2
+    },
+    {
+      "feature": "tax_liens",
+      "iv": 0.0001,
+      "bins": 2
+    },
+    {
+      "feature": "pub_rec",
+      "iv": 0.0,
+      "bins": 2
+    },
+    {
+      "feature": "acc_now_delinq",
+      "iv": 0.0,
+      "bins": 1
+    },
+    {
+      "feature": "delinq_amnt",
+      "iv": 0.0,
+      "bins": 1
+    },
+    {
+      "feature": "pub_rec_bankruptcies",
+      "iv": 0.0,
+      "bins": 2
+    }
+  ],
+  "correlation_dropped": {
+    "num_tl_op_past_12m": "acc_open_past_24mths",
+    "mths_since_recent_inq": "inq_last_6mths",
+    "total_bc_limit": "bc_open_to_buy",
+    "avg_cur_bal": "tot_hi_cred_lim",
+    "tot_cur_bal": "tot_hi_cred_lim",
+    "credit_history_months": "mo_sin_old_rev_tl_op",
+    "mo_sin_rcnt_rev_tl_op": "mo_sin_rcnt_tl",
+    "total_rev_hi_lim": "bc_open_to_buy",
+    "mort_acc": "tot_hi_cred_lim",
+    "percent_bc_gt_75": "bc_open_to_buy",
+    "bc_util": "bc_open_to_buy"
+  },
+  "candidates_after_filters": [
+    "fico",
+    "acc_open_past_24mths",
+    "loan_to_income",
+    "annual_inc",
+    "inq_last_6mths",
+    "bc_open_to_buy",
+    "mo_sin_rcnt_tl",
+    "purpose",
+    "dti",
+    "tot_hi_cred_lim",
+    "mo_sin_old_rev_tl_op",
+    "term",
+    "mths_since_recent_bc",
+    "home_ownership",
+    "verification_status",
+    "mo_sin_old_il_acct"
+  ],
+  "selection_steps": [
+    {
+      "step": 1,
+      "added": "acc_open_past_24mths",
+      "valid_gini": 0.2064
+    },
+    {
+      "step": 2,
+      "added": "fico",
+      "valid_gini": 0.2542
+    },
+    {
+      "step": 3,
+      "added": "loan_to_income",
+      "valid_gini": 0.2939
+    },
+    {
+      "step": 4,
+      "added": "purpose",
+      "valid_gini": 0.3129
+    },
+    {
+      "step": 5,
+      "added": "inq_last_6mths",
+      "valid_gini": 0.3269
+    },
+    {
+      "step": 6,
+      "added": "home_ownership",
+      "valid_gini": 0.3399
+    },
+    {
+      "step": 7,
+      "added": "bc_open_to_buy",
+      "valid_gini": 0.3495
+    },
+    {
+      "step": 8,
+      "added": "dti",
+      "valid_gini": 0.3561
+    },
+    {
+      "step": 9,
+      "added": "term",
+      "valid_gini": 0.362
+    },
+    {
+      "step": 10,
+      "added": "mo_sin_old_rev_tl_op",
+      "valid_gini": 0.3681
+    },
+    {
+      "step": 11,
+      "added": "mo_sin_old_il_acct",
+      "valid_gini": 0.3717
+    },
+    {
+      "step": 12,
+      "added": "verification_status",
+      "valid_gini": 0.3753
+    }
+  ],
+  "removed_in_final_fit": [],
+  "final_features": [
+    {
+      "feature": "acc_open_past_24mths",
+      "coef": -0.7957,
+      "p_value": 4.589732997038205e-176,
+      "iv": 0.0693
+    },
+    {
+      "feature": "fico",
+      "coef": -0.6901,
+      "p_value": 1.2587503898001928e-153,
+      "iv": 0.092
+    },
+    {
+      "feature": "loan_to_income",
+      "coef": -0.9428,
+      "p_value": 7.768137657837205e-195,
+      "iv": 0.0597
+    },
+    {
+      "feature": "purpose",
+      "coef": -0.9893,
+      "p_value": 8.669807008799985e-209,
+      "iv": 0.0469
+    },
+    {
+      "feature": "inq_last_6mths",
+      "coef": -0.8618,
+      "p_value": 1.9319494652655464e-187,
+      "iv": 0.0558
+    },
+    {
+      "feature": "home_ownership",
+      "coef": -0.7579,
+      "p_value": 1.478248553216216e-68,
+      "iv": 0.0281
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "coef": -0.6777,
+      "p_value": 5.7363994435053896e-80,
+      "iv": 0.0496
+    },
+    {
+      "feature": "dti",
+      "coef": -0.5575,
+      "p_value": 6.780572626031358e-59,
+      "iv": 0.0449
+    },
+    {
+      "feature": "term",
+      "coef": -0.6066,
+      "p_value": 6.907983311782178e-50,
+      "iv": 0.0335
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "coef": -0.451,
+      "p_value": 1.1100819230837931e-27,
+      "iv": 0.0344
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "coef": -0.6979,
+      "p_value": 2.2676986890525975e-40,
+      "iv": 0.0204
+    },
+    {
+      "feature": "verification_status",
+      "coef": -0.3235,
+      "p_value": 7.508785316532991e-10,
+      "iv": 0.0213
+    }
+  ],
+  "intercept": -2.9838,
+  "benchmarks_test": {
+    "scorecard": {
+      "loans": 877986,
+      "default_rate": 0.0635,
+      "gini": 0.3427,
+      "ks": 0.2451,
+      "gini_ci95": [
+        0.3381,
+        0.3472
+      ],
+      "features": 12
+    },
+    "lc_sub_grade": {
+      "loans": 877986,
+      "default_rate": 0.0635,
+      "gini": 0.3987,
+      "ks": 0.2824,
+      "gini_ci95": [
+        0.3938,
+        0.4027
+      ]
+    },
+    "lc_int_rate": {
+      "loans": 877986,
+      "default_rate": 0.0635,
+      "gini": 0.3975,
+      "ks": 0.2827
+    },
+    "xgboost": {
+      "loans": 877986,
+      "default_rate": 0.0635,
+      "gini": 0.3902,
+      "ks": 0.2827,
+      "gini_ci95": [
+        0.3854,
+        0.3947
+      ],
+      "trees": 594,
+      "features": 61
+    }
+  },
+  "score_bands": [
+    {
+      "band": 1,
+      "score_range": "[min, 555)",
+      "test_loans": 68281,
+      "test_default_rate": 0.152,
+      "train_default_rate": 0.1146,
+      "scorecard_pd": 0.1153
+    },
+    {
+      "band": 2,
+      "score_range": "[555, 563)",
+      "test_loans": 75843,
+      "test_default_rate": 0.1079,
+      "train_default_rate": 0.0799,
+      "scorecard_pd": 0.0771
+    },
+    {
+      "band": 3,
+      "score_range": "[563, 569)",
+      "test_loans": 81883,
+      "test_default_rate": 0.0902,
+      "train_default_rate": 0.064,
+      "scorecard_pd": 0.0619
+    },
+    {
+      "band": 4,
+      "score_range": "[569, 574)",
+      "test_loans": 81939,
+      "test_default_rate": 0.0758,
+      "train_default_rate": 0.0539,
+      "scorecard_pd": 0.0518
+    },
+    {
+      "band": 5,
+      "score_range": "[574, 578)",
+      "test_loans": 70870,
+      "test_default_rate": 0.0662,
+      "train_default_rate": 0.0481,
+      "scorecard_pd": 0.0447
+    },
+    {
+      "band": 6,
+      "score_range": "[578, 583)",
+      "test_loans": 90348,
+      "test_default_rate": 0.058,
+      "train_default_rate": 0.0381,
+      "scorecard_pd": 0.0385
+    },
+    {
+      "band": 7,
+      "score_range": "[583, 588)",
+      "test_loans": 86932,
+      "test_default_rate": 0.05,
+      "train_default_rate": 0.033,
+      "scorecard_pd": 0.0326
+    },
+    {
+      "band": 8,
+      "score_range": "[588, 595)",
+      "test_loans": 106742,
+      "test_default_rate": 0.0401,
+      "train_default_rate": 0.0259,
+      "scorecard_pd": 0.0268
+    },
+    {
+      "band": 9,
+      "score_range": "[595, 603)",
+      "test_loans": 92430,
+      "test_default_rate": 0.0303,
+      "train_default_rate": 0.0204,
+      "scorecard_pd": 0.0209
+    },
+    {
+      "band": 10,
+      "score_range": "[603, max)",
+      "test_loans": 122718,
+      "test_default_rate": 0.0181,
+      "train_default_rate": 0.0123,
+      "scorecard_pd": 0.0132
+    }
+  ],
+  "scorecard": [
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "<= 1",
+      "loans": 63306,
+      "share": 0.1366,
+      "bad_rate": 0.0307,
+      "woe": 0.4721,
+      "points": 59
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(1, 2]",
+      "loans": 60672,
+      "share": 0.1309,
+      "bad_rate": 0.0366,
+      "woe": 0.2888,
+      "points": 54
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(2, 3]",
+      "loans": 66970,
+      "share": 0.1445,
+      "bad_rate": 0.0431,
+      "woe": 0.1183,
+      "points": 50
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(3, 4]",
+      "loans": 61692,
+      "share": 0.1331,
+      "bad_rate": 0.0472,
+      "woe": 0.0248,
+      "points": 48
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(4, 5]",
+      "loans": 50702,
+      "share": 0.1094,
+      "bad_rate": 0.053,
+      "woe": -0.0978,
+      "points": 46
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(5, 6]",
+      "loans": 38177,
+      "share": 0.0823,
+      "bad_rate": 0.0595,
+      "woe": -0.2203,
+      "points": 43
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "(6, 7]",
+      "loans": 26718,
+      "share": 0.0576,
+      "bad_rate": 0.0603,
+      "woe": -0.2354,
+      "points": 42
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "> 7",
+      "loans": 48078,
+      "share": 0.1037,
+      "bad_rate": 0.0726,
+      "woe": -0.4339,
+      "points": 38
+    },
+    {
+      "feature": "acc_open_past_24mths",
+      "bin": "MISSING",
+      "loans": 47281,
+      "share": 0.102,
+      "bad_rate": 0.05,
+      "woe": -0.0365,
+      "points": 47
+    },
+    {
+      "feature": "fico",
+      "bin": "<= 662",
+      "loans": 37647,
+      "share": 0.0812,
+      "bad_rate": 0.0685,
+      "woe": -0.371,
+      "points": 40
+    },
+    {
+      "feature": "fico",
+      "bin": "(662, 667]",
+      "loans": 38379,
+      "share": 0.0828,
+      "bad_rate": 0.0645,
+      "woe": -0.3072,
+      "points": 42
+    },
+    {
+      "feature": "fico",
+      "bin": "(667, 672]",
+      "loans": 39378,
+      "share": 0.0849,
+      "bad_rate": 0.0627,
+      "woe": -0.2767,
+      "points": 42
+    },
+    {
+      "feature": "fico",
+      "bin": "(672, 682]",
+      "loans": 72180,
+      "share": 0.1557,
+      "bad_rate": 0.0557,
+      "woe": -0.1495,
+      "points": 45
+    },
+    {
+      "feature": "fico",
+      "bin": "(682, 687]",
+      "loans": 32829,
+      "share": 0.0708,
+      "bad_rate": 0.0535,
+      "woe": -0.1071,
+      "points": 46
+    },
+    {
+      "feature": "fico",
+      "bin": "(687, 692]",
+      "loans": 32132,
+      "share": 0.0693,
+      "bad_rate": 0.0492,
+      "woe": -0.0197,
+      "points": 47
+    },
+    {
+      "feature": "fico",
+      "bin": "(692, 697]",
+      "loans": 29204,
+      "share": 0.063,
+      "bad_rate": 0.0458,
+      "woe": 0.0551,
+      "points": 49
+    },
+    {
+      "feature": "fico",
+      "bin": "(697, 707]",
+      "loans": 49682,
+      "share": 0.1072,
+      "bad_rate": 0.0424,
+      "woe": 0.1371,
+      "points": 50
+    },
+    {
+      "feature": "fico",
+      "bin": "(707, 727]",
+      "loans": 65577,
+      "share": 0.1415,
+      "bad_rate": 0.035,
+      "woe": 0.3355,
+      "points": 54
+    },
+    {
+      "feature": "fico",
+      "bin": "> 727",
+      "loans": 66588,
+      "share": 0.1436,
+      "bad_rate": 0.0266,
+      "woe": 0.619,
+      "points": 60
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "<= 0.05715",
+      "loans": 23180,
+      "share": 0.05,
+      "bad_rate": 0.0349,
+      "woe": 0.3371,
+      "points": 57
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.05715, 0.08]",
+      "loans": 23479,
+      "share": 0.0506,
+      "bad_rate": 0.0369,
+      "woe": 0.2811,
+      "points": 55
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.08, 0.1324]",
+      "loans": 69265,
+      "share": 0.1494,
+      "bad_rate": 0.0371,
+      "woe": 0.2753,
+      "points": 55
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.1324, 0.1613]",
+      "loans": 46544,
+      "share": 0.1004,
+      "bad_rate": 0.0402,
+      "woe": 0.1925,
+      "points": 53
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.1613, 0.192]",
+      "loans": 46668,
+      "share": 0.1007,
+      "bad_rate": 0.0413,
+      "woe": 0.1645,
+      "points": 52
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.192, 0.2222]",
+      "loans": 46814,
+      "share": 0.101,
+      "bad_rate": 0.0445,
+      "woe": 0.0869,
+      "points": 50
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.2222, 0.2571]",
+      "loans": 45685,
+      "share": 0.0985,
+      "bad_rate": 0.0465,
+      "woe": 0.0389,
+      "points": 49
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.2571, 0.2988]",
+      "loans": 46062,
+      "share": 0.0994,
+      "bad_rate": 0.0549,
+      "woe": -0.1356,
+      "points": 44
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "(0.2988, 0.3469]",
+      "loans": 46408,
+      "share": 0.1001,
+      "bad_rate": 0.0598,
+      "woe": -0.2265,
+      "points": 42
+    },
+    {
+      "feature": "loan_to_income",
+      "bin": "> 0.3469",
+      "loans": 69491,
+      "share": 0.1499,
+      "bad_rate": 0.0695,
+      "woe": -0.3872,
+      "points": 37
+    },
+    {
+      "feature": "purpose",
+      "bin": "credit_card",
+      "loans": 103829,
+      "share": 0.224,
+      "bad_rate": 0.0355,
+      "woe": 0.3197,
+      "points": 57
+    },
+    {
+      "feature": "purpose",
+      "bin": "car",
+      "loans": 5334,
+      "share": 0.0115,
+      "bad_rate": 0.0377,
+      "woe": 0.257,
+      "points": 55
+    },
+    {
+      "feature": "purpose",
+      "bin": "home_improvement",
+      "loans": 26327,
+      "share": 0.0568,
+      "bad_rate": 0.0435,
+      "woe": 0.1086,
+      "points": 51
+    },
+    {
+      "feature": "purpose",
+      "bin": "major_purchase",
+      "loans": 9705,
+      "share": 0.0209,
+      "bad_rate": 0.0457,
+      "woe": 0.0559,
+      "points": 49
+    },
+    {
+      "feature": "purpose",
+      "bin": "debt_consolidation",
+      "loans": 273133,
+      "share": 0.5892,
+      "bad_rate": 0.0501,
+      "woe": -0.0376,
+      "points": 47
+    },
+    {
+      "feature": "purpose",
+      "bin": "RARE (<1% each)",
+      "loans": 15147,
+      "share": 0.0327,
+      "bad_rate": 0.0657,
+      "woe": -0.3264,
+      "points": 38
+    },
+    {
+      "feature": "purpose",
+      "bin": "other",
+      "loans": 23268,
+      "share": 0.0502,
+      "bad_rate": 0.0658,
+      "woe": -0.3287,
+      "points": 38
+    },
+    {
+      "feature": "purpose",
+      "bin": "small_business",
+      "loans": 6853,
+      "share": 0.0148,
+      "bad_rate": 0.1032,
+      "woe": -0.8189,
+      "points": 24
+    },
+    {
+      "feature": "inq_last_6mths",
+      "bin": "<= 0",
+      "loans": 241201,
+      "share": 0.5203,
+      "bad_rate": 0.0393,
+      "woe": 0.2162,
+      "points": 53
+    },
+    {
+      "feature": "inq_last_6mths",
+      "bin": "(0, 1]",
+      "loans": 129908,
+      "share": 0.2802,
+      "bad_rate": 0.0512,
+      "woe": -0.0606,
+      "points": 46
+    },
+    {
+      "feature": "inq_last_6mths",
+      "bin": "(1, 2]",
+      "loans": 57671,
+      "share": 0.1244,
+      "bad_rate": 0.063,
+      "woe": -0.2814,
+      "points": 41
+    },
+    {
+      "feature": "inq_last_6mths",
+      "bin": "> 2",
+      "loans": 34816,
+      "share": 0.0751,
+      "bad_rate": 0.0757,
+      "woe": -0.4794,
+      "points": 36
+    },
+    {
+      "feature": "home_ownership",
+      "bin": "MORTGAGE",
+      "loans": 234652,
+      "share": 0.5062,
+      "bad_rate": 0.0409,
+      "woe": 0.1739,
+      "points": 52
+    },
+    {
+      "feature": "home_ownership",
+      "bin": "OWN",
+      "loans": 41525,
+      "share": 0.0896,
+      "bad_rate": 0.0501,
+      "woe": -0.0385,
+      "points": 47
+    },
+    {
+      "feature": "home_ownership",
+      "bin": "RENT",
+      "loans": 187229,
+      "share": 0.4039,
+      "bad_rate": 0.0571,
+      "woe": -0.1776,
+      "points": 44
+    },
+    {
+      "feature": "home_ownership",
+      "bin": "RARE (<1% each)",
+      "loans": 190,
+      "share": 0.0004,
+      "bad_rate": 0.0632,
+      "woe": -0.322,
+      "points": 41
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "<= 102",
+      "loans": 20639,
+      "share": 0.0445,
+      "bad_rate": 0.0788,
+      "woe": -0.522,
+      "points": 38
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(102, 503]",
+      "loans": 41255,
+      "share": 0.089,
+      "bad_rate": 0.06,
+      "woe": -0.2288,
+      "points": 43
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(503, 1,089]",
+      "loans": 41229,
+      "share": 0.0889,
+      "bad_rate": 0.0544,
+      "woe": -0.1246,
+      "points": 45
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(1,089, 1,883]",
+      "loans": 41231,
+      "share": 0.0889,
+      "bad_rate": 0.0516,
+      "woe": -0.0689,
+      "points": 46
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(1,883, 2,928]",
+      "loans": 41200,
+      "share": 0.0889,
+      "bad_rate": 0.0492,
+      "woe": -0.0195,
+      "points": 47
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(2,928, 3,581]",
+      "loans": 20630,
+      "share": 0.0445,
+      "bad_rate": 0.0479,
+      "woe": 0.0075,
+      "points": 48
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(3,581, 6,429]",
+      "loans": 61842,
+      "share": 0.1334,
+      "bad_rate": 0.0463,
+      "woe": 0.0452,
+      "points": 49
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(6,429, 7,894]",
+      "loans": 20620,
+      "share": 0.0445,
+      "bad_rate": 0.0454,
+      "woe": 0.0636,
+      "points": 49
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(7,894, 16,138]",
+      "loans": 61846,
+      "share": 0.1334,
+      "bad_rate": 0.0408,
+      "woe": 0.1754,
+      "points": 51
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "(16,138, 33,289]",
+      "loans": 41231,
+      "share": 0.0889,
+      "bad_rate": 0.0337,
+      "woe": 0.3746,
+      "points": 55
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "> 33,289",
+      "loans": 20617,
+      "share": 0.0445,
+      "bad_rate": 0.0275,
+      "woe": 0.5859,
+      "points": 59
+    },
+    {
+      "feature": "bc_open_to_buy",
+      "bin": "MISSING",
+      "loans": 51256,
+      "share": 0.1106,
+      "bad_rate": 0.0512,
+      "woe": -0.0621,
+      "points": 47
+    },
+    {
+      "feature": "dti",
+      "bin": "<= 8.71",
+      "loans": 69629,
+      "share": 0.1502,
+      "bad_rate": 0.0367,
+      "woe": 0.288,
+      "points": 52
+    },
+    {
+      "feature": "dti",
+      "bin": "(8.71, 10.13]",
+      "loans": 23231,
+      "share": 0.0501,
+      "bad_rate": 0.0389,
+      "woe": 0.2266,
+      "points": 51
+    },
+    {
+      "feature": "dti",
+      "bin": "(10.13, 12.55]",
+      "loans": 46378,
+      "share": 0.1,
+      "bad_rate": 0.04,
+      "woe": 0.1983,
+      "points": 51
+    },
+    {
+      "feature": "dti",
+      "bin": "(12.55, 15.8]",
+      "loans": 69485,
+      "share": 0.1499,
+      "bad_rate": 0.0421,
+      "woe": 0.1446,
+      "points": 50
+    },
+    {
+      "feature": "dti",
+      "bin": "(15.8, 19.09]",
+      "loans": 69474,
+      "share": 0.1499,
+      "bad_rate": 0.0469,
+      "woe": 0.03,
+      "points": 48
+    },
+    {
+      "feature": "dti",
+      "bin": "(19.09, 21.47]",
+      "loans": 46369,
+      "share": 0.1,
+      "bad_rate": 0.0517,
+      "woe": -0.072,
+      "points": 47
+    },
+    {
+      "feature": "dti",
+      "bin": "(21.47, 24.23]",
+      "loans": 46314,
+      "share": 0.0999,
+      "bad_rate": 0.0543,
+      "woe": -0.1244,
+      "points": 46
+    },
+    {
+      "feature": "dti",
+      "bin": "(24.23, 25.94]",
+      "loans": 23224,
+      "share": 0.0501,
+      "bad_rate": 0.0594,
+      "woe": -0.2192,
+      "points": 44
+    },
+    {
+      "feature": "dti",
+      "bin": "(25.94, 28.03]",
+      "loans": 23226,
+      "share": 0.0501,
+      "bad_rate": 0.0616,
+      "woe": -0.2578,
+      "points": 44
+    },
+    {
+      "feature": "dti",
+      "bin": "> 28.03",
+      "loans": 46266,
+      "share": 0.0998,
+      "bad_rate": 0.0685,
+      "woe": -0.3715,
+      "points": 42
+    },
+    {
+      "feature": "term",
+      "bin": "<= 36",
+      "loans": 335558,
+      "share": 0.7238,
+      "bad_rate": 0.0429,
+      "woe": 0.1238,
+      "points": 50
+    },
+    {
+      "feature": "term",
+      "bin": "> 36",
+      "loans": 128038,
+      "share": 0.2762,
+      "bad_rate": 0.0624,
+      "woe": -0.2713,
+      "points": 43
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "<= 67",
+      "loans": 20475,
+      "share": 0.0442,
+      "bad_rate": 0.0705,
+      "woe": -0.4024,
+      "points": 43
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(67, 84]",
+      "loans": 20500,
+      "share": 0.0442,
+      "bad_rate": 0.0637,
+      "woe": -0.2934,
+      "points": 44
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(84, 118]",
+      "loans": 58312,
+      "share": 0.1258,
+      "bad_rate": 0.056,
+      "woe": -0.1563,
+      "points": 46
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(118, 138]",
+      "loans": 39817,
+      "share": 0.0859,
+      "bad_rate": 0.053,
+      "woe": -0.0983,
+      "points": 46
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(138, 148]",
+      "loans": 21201,
+      "share": 0.0457,
+      "bad_rate": 0.0487,
+      "woe": -0.0085,
+      "points": 48
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(148, 165]",
+      "loans": 38129,
+      "share": 0.0822,
+      "bad_rate": 0.0456,
+      "woe": 0.0606,
+      "points": 49
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(165, 213]",
+      "loans": 78918,
+      "share": 0.1702,
+      "bad_rate": 0.0441,
+      "woe": 0.096,
+      "points": 49
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(213, 229]",
+      "loans": 20485,
+      "share": 0.0442,
+      "bad_rate": 0.0408,
+      "woe": 0.1771,
+      "points": 50
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "(229, 309]",
+      "loans": 59059,
+      "share": 0.1274,
+      "bad_rate": 0.038,
+      "woe": 0.2511,
+      "points": 51
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "> 309",
+      "loans": 39172,
+      "share": 0.0845,
+      "bad_rate": 0.0366,
+      "woe": 0.2884,
+      "points": 52
+    },
+    {
+      "feature": "mo_sin_old_rev_tl_op",
+      "bin": "MISSING",
+      "loans": 67528,
+      "share": 0.1457,
+      "bad_rate": 0.0518,
+      "woe": -0.0746,
+      "points": 47
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "<= 36",
+      "loans": 19221,
+      "share": 0.0415,
+      "bad_rate": 0.0679,
+      "woe": -0.3616,
+      "points": 40
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(36, 60]",
+      "loans": 19745,
+      "share": 0.0426,
+      "bad_rate": 0.062,
+      "woe": -0.2644,
+      "points": 42
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(60, 88]",
+      "loans": 38198,
+      "share": 0.0824,
+      "bad_rate": 0.0544,
+      "woe": -0.126,
+      "points": 45
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(88, 108]",
+      "loans": 39425,
+      "share": 0.085,
+      "bad_rate": 0.0506,
+      "woe": -0.0497,
+      "points": 47
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(108, 121]",
+      "loans": 38260,
+      "share": 0.0825,
+      "bad_rate": 0.0478,
+      "woe": 0.0106,
+      "points": 48
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(121, 130]",
+      "loans": 40800,
+      "share": 0.088,
+      "bad_rate": 0.0453,
+      "woe": 0.0661,
+      "points": 49
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "(130, 138]",
+      "loans": 36233,
+      "share": 0.0782,
+      "bad_rate": 0.0437,
+      "woe": 0.1049,
+      "points": 50
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "> 138",
+      "loans": 150885,
+      "share": 0.3255,
+      "bad_rate": 0.0419,
+      "woe": 0.1492,
+      "points": 51
+    },
+    {
+      "feature": "mo_sin_old_il_acct",
+      "bin": "MISSING",
+      "loans": 80829,
+      "share": 0.1744,
+      "bad_rate": 0.052,
+      "woe": -0.0777,
+      "points": 46
+    },
+    {
+      "feature": "verification_status",
+      "bin": "Not Verified",
+      "loans": 144267,
+      "share": 0.3112,
+      "bad_rate": 0.0387,
+      "woe": 0.2313,
+      "points": 50
+    },
+    {
+      "feature": "verification_status",
+      "bin": "Source Verified",
+      "loans": 151867,
+      "share": 0.3276,
+      "bad_rate": 0.0513,
+      "woe": -0.0636,
+      "points": 47
+    },
+    {
+      "feature": "verification_status",
+      "bin": "Verified",
+      "loans": 167462,
+      "share": 0.3612,
+      "bad_rate": 0.0538,
+      "woe": -0.1143,
+      "points": 47
+    }
+  ],
+  "runtime_s": 337
+}
