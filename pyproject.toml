@@ -10,6 +10,7 @@ dependencies = [
     "numpy>=1.26",
     "pydantic-settings>=2.4,<3",
     "python-dotenv>=1.0,<2",
+    "psycopg[binary]>=3.2,<4",
 ]
 
 [dependency-groups]
@@ -35,6 +36,9 @@ package = false
 testpaths = ["tests"]
 pythonpath = ["."]
 addopts = "-ra"
+markers = [
+    "db: needs the loaded PostgreSQL warehouse (skipped when unreachable)",
+]
 
 [tool.ruff]
 line-length = 100

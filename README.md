@@ -26,6 +26,7 @@ and a Power BI risk dashboard.
 - 12-month default rate 5.80% on the 1,762,677 loans with a complete 12-month window
   (from 1.48% for grade A to 22.68% for grade G).
 - Only 41% of defaults happen in the first 12 months, so lifetime PD matters for IFRS 9.
+- Open book at the 2019-03-31 reporting date: 912,609 loans, $9.51 bn outstanding principal.
 - Column roles (application, pricing, outcome) are fixed in
   [`credit_risk/data/columns.py`](credit_risk/data/columns.py), so post-origination fields cannot
   leak into the scorecard.
@@ -38,7 +39,7 @@ Each phase is checked before the next, with one commit per phase.
 |---|---|---|
 | 0 | Setup, download with SHA-256 manifest, raw data profile ([findings](docs/phase0_findings.md)) | Done |
 | 1 | Default definition, observation windows, cleaning, leakage review ([report](docs/phase1_report.md)) | Done |
-| 2 | Loan-level dataset in PostgreSQL: star schema (loan fact; grade, purpose, state, date dimensions) | |
+| 2 | PostgreSQL star schema, BI views, least-privilege roles, reconciled load ([docs](docs/star_schema.md)) | Done |
 | 3 | Application scorecard: binning, WoE/IV, logistic regression, points scaling; out-of-time validation (Gini, KS); XGBoost benchmark | |
 | 4 | PD calibration, rating master scale, lifetime PD curves from vintage data | |
 | 5 | LGD (recoveries, cure) and EAD (amortisation schedule, prepayment) | |
@@ -49,7 +50,7 @@ Each phase is checked before the next, with one commit per phase.
 
 ## Setup
 
-Requires [uv](https://docs.astral.sh/uv/) and Python 3.11 (uv installs it).
+Requires [uv](https://docs.astral.sh/uv/), Python 3.11 (uv installs it) and PostgreSQL 16.
 
 ```powershell
 # Your user environment sets UV_PROJECT_ENVIRONMENT for another project: override it here.
@@ -60,7 +61,9 @@ Copy-Item .env.example .env      # then point CREDIT_RAW_DIR to a drive with ~2 
 uv run python -m credit_risk.data.download       # ~650 MB, idempotent, hash-checked
 uv run python -m credit_risk.data.profile_raw    # writes docs/phase0_profile.json
 uv run python -m credit_risk.data.build_loans    # clean Parquet + docs/phase1_report.md
-uv run pytest
+uv run python -m credit_risk.warehouse.setup_db  # PostgreSQL database, roles (see .env.example)
+uv run python -m credit_risk.warehouse.load      # star schema + BI views, reconciled
+uv run pytest                                    # unit tests + warehouse checks (-m db)
 ```
 
 ## Repository layout
@@ -70,7 +73,7 @@ credit_risk/        Python package: config, data download and profiling, models 
 data/raw/           Downloaded files + _manifest.json (git-ignored; may live on another drive)
 data/processed/     Cleaned and derived datasets (git-ignored)
 docs/               Findings, data profile, model cards
-warehouse/          SQL for the PostgreSQL star schema
+warehouse/sql/      Star schema DDL and BI views (PostgreSQL)
 powerbi/            Power BI project (PBIP)
 notebooks/          Exploration
 tests/              Unit tests
