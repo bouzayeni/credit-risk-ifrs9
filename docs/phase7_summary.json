@@ -1,0 +1,1752 @@
+{
+  "dev_years": [
+    2007,
+    2014
+  ],
+  "ref_years": [
+    2013,
+    2014
+  ],
+  "ref_loans": 370443,
+  "missing_share_full_dev": 0.14566130855313678,
+  "dev_gini": 0.352,
+  "rescoring_mismatches": 0,
+  "thresholds": {
+    "psi": [
+      0.1,
+      0.25
+    ],
+    "gini_share": [
+      0.9,
+      0.8
+    ],
+    "calibration_gap": [
+      0.1,
+      0.2
+    ],
+    "alpha": 0.05
+  },
+  "quarters": [
+    {
+      "quarter": "2015Q1",
+      "loans": 84277,
+      "mean_score": 577.993473901539,
+      "psi_score": 0.0032545487389377525,
+      "psi_status": "green",
+      "max_csi": 0.04924436825345795,
+      "max_csi_feature": "verification_status",
+      "features_amber_or_red": 0,
+      "gini": 0.3640020726696078,
+      "gini_se": 0.008959556683751294,
+      "gini_status": "green",
+      "cal_dev_observed": 0.053751320051734164,
+      "cal_dev_predicted": 0.04949852124911103,
+      "cal_dev_ratio": 1.0859176940098896,
+      "cal_dev_z": 5.7557678726620525,
+      "cal_dev_p_value": 8.624883514646378e-09,
+      "cal_dev_status": "green",
+      "cal_prod_observed": 0.053751320051734164,
+      "cal_prod_predicted": 0.0698512979859394,
+      "cal_prod_ratio": 0.7695106834314509,
+      "cal_prod_z": -18.56165446312323,
+      "cal_prod_p_value": 6.565134806375261e-77,
+      "cal_prod_status": "red",
+      "gini_6m": 0.35324652025017844,
+      "gini_6m_se": 0.015589240989497646,
+      "early_observed": 0.017430615707725715,
+      "early_predicted": 0.024633870784173242,
+      "early_ratio": 0.7075873645860207,
+      "early_z": -13.549032080212493,
+      "early_p_value": 8.028174948203919e-42,
+      "early_status": "red"
+    },
+    {
+      "quarter": "2015Q2",
+      "loans": 95825,
+      "mean_score": 578.1652804591704,
+      "psi_score": 0.003328674540591553,
+      "psi_status": "green",
+      "max_csi": 0.0544226757142571,
+      "max_csi_feature": "verification_status",
+      "features_amber_or_red": 0,
+      "gini": 0.36845077853410535,
+      "gini_se": 0.008238387247639138,
+      "gini_status": "green",
+      "cal_dev_observed": 0.055872684581267935,
+      "cal_dev_predicted": 0.04940830482710264,
+      "cal_dev_ratio": 1.1308358944267867,
+      "cal_dev_z": 9.33863498408341,
+      "cal_dev_p_value": 9.758402946051327e-21,
+      "cal_dev_status": "amber",
+      "cal_prod_observed": 0.055872684581267935,
+      "cal_prod_predicted": 0.06970126146816318,
+      "cal_prod_ratio": 0.8016022006544086,
+      "cal_prod_z": -17.02108095685599,
+      "cal_prod_p_value": 5.730290557973579e-65,
+      "cal_prod_status": "amber",
+      "gini_6m": 0.3608518608554223,
+      "gini_6m_se": 0.013757881415936648,
+      "early_observed": 0.019650404382989824,
+      "early_predicted": 0.024585478400658074,
+      "early_ratio": 0.7992687416025163,
+      "early_z": -9.908593192949406,
+      "early_p_value": 3.8198674169569715e-23,
+      "early_status": "red"
+    },
+    {
+      "quarter": "2015Q3",
+      "loans": 110489,
+      "mean_score": 579.1730579514702,
+      "psi_score": 0.0030906201655689193,
+      "psi_status": "green",
+      "max_csi": 0.049452468557538896,
+      "max_csi_feature": "inq_last_6mths",
+      "features_amber_or_red": 0,
+      "gini": 0.3906935701552896,
+      "gini_se": 0.007510036140930599,
+      "gini_status": "green",
+      "cal_dev_observed": 0.057716152739186705,
+      "cal_dev_predicted": 0.048061360800566215,
+      "cal_dev_ratio": 1.200884697765502,
+      "cal_dev_z": 15.174728348786216,
+      "cal_dev_p_value": 5.199254770268799e-52,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.057716152739186705,
+      "cal_prod_predicted": 0.06797182219799912,
+      "cal_prod_ratio": 0.8491188094246161,
+      "cal_prod_z": -13.715375523310332,
+      "cal_prod_p_value": 8.214001001180334e-43,
+      "cal_prod_status": "amber",
+      "gini_6m": 0.3863971123284171,
+      "gini_6m_se": 0.01324286908036913,
+      "early_observed": 0.018164704178696523,
+      "early_predicted": 0.023958943677955962,
+      "early_ratio": 0.7581596427145252,
+      "early_z": -12.650646533323258,
+      "early_p_value": 1.1095794405103664e-36,
+      "early_status": "red"
+    },
+    {
+      "quarter": "2015Q4",
+      "loans": 130504,
+      "mean_score": 579.3837430270337,
+      "psi_score": 0.0038895529353312635,
+      "psi_status": "green",
+      "max_csi": 0.03802661492373129,
+      "max_csi_feature": "dti",
+      "features_amber_or_red": 0,
+      "gini": 0.37578905800477624,
+      "gini_se": 0.006786271722882721,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06041960399681236,
+      "cal_dev_predicted": 0.04779152829346549,
+      "cal_dev_ratio": 1.2642325147210975,
+      "cal_dev_z": 21.62837313237927,
+      "cal_dev_p_value": 9.714928248248756e-104,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06041960399681236,
+      "cal_prod_predicted": 0.06763280650753267,
+      "cal_prod_ratio": 0.8933475796259182,
+      "cal_prod_z": -10.508847600424557,
+      "cal_prod_p_value": 7.86486944216686e-26,
+      "cal_prod_status": "amber",
+      "gini_6m": 0.3804466932347008,
+      "gini_6m_se": 0.012088829432397108,
+      "early_observed": 0.01851284251823699,
+      "early_predicted": 0.02384927187813437,
+      "early_ratio": 0.7762435101932836,
+      "early_z": -12.691158387158733,
+      "early_p_value": 6.619936712053452e-37,
+      "early_status": "red"
+    },
+    {
+      "quarter": "2016Q1",
+      "loans": 133887,
+      "mean_score": 580.1391471912882,
+      "psi_score": 0.0070856990066005265,
+      "psi_status": "green",
+      "max_csi": 0.04964014365141084,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 0,
+      "gini": 0.3710159767908554,
+      "gini_se": 0.006534530813261584,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06380753919349899,
+      "cal_dev_predicted": 0.04672163488473201,
+      "cal_dev_ratio": 1.3656957713684463,
+      "cal_dev_z": 29.960805650325387,
+      "cal_dev_p_value": 3.182074604195352e-197,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06380753919349899,
+      "cal_prod_predicted": 0.06618982689389971,
+      "cal_prod_ratio": 0.9640082500258015,
+      "cal_prod_z": -3.5506349168160853,
+      "cal_prod_p_value": 0.00038430310547078023,
+      "cal_prod_status": "green",
+      "gini_6m": 0.3844480530083785,
+      "gini_6m_se": 0.010886389309858243,
+      "early_observed": 0.022257575418076436,
+      "early_predicted": 0.023375332934735493,
+      "early_ratio": 0.952182177692191,
+      "early_z": -2.719004028469316,
+      "early_p_value": 0.00654788106255021,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "loans": 97854,
+      "mean_score": 580.3376765385166,
+      "psi_score": 0.005110485870503327,
+      "psi_status": "green",
+      "max_csi": 0.061899859552445854,
+      "max_csi_feature": "inq_last_6mths",
+      "features_amber_or_red": 0,
+      "gini": 0.351624139503933,
+      "gini_se": 0.007577701490918877,
+      "gini_status": "green",
+      "cal_dev_observed": 0.0655772886136489,
+      "cal_dev_predicted": 0.0456767567823646,
+      "cal_dev_ratio": 1.4356818047766413,
+      "cal_dev_z": 30.11818354927335,
+      "cal_dev_p_value": 2.800851614453519e-199,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.0655772886136489,
+      "cal_prod_predicted": 0.06514801257919997,
+      "cal_prod_ratio": 1.0065892422109894,
+      "cal_prod_z": 0.5503925406413332,
+      "cal_prod_p_value": 0.5820501638439055,
+      "cal_prod_status": "green",
+      "gini_6m": 0.35268956345172664,
+      "gini_6m_se": 0.012249848844123423,
+      "early_observed": 0.024424142089234983,
+      "early_predicted": 0.023016800800853526,
+      "early_ratio": 1.06114408777128,
+      "early_z": 2.9477076788057714,
+      "early_p_value": 0.0032013963420466033,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "loans": 99120,
+      "mean_score": 579.3894874899112,
+      "psi_score": 0.0014068199839857225,
+      "psi_status": "green",
+      "max_csi": 0.05910902723612177,
+      "max_csi_feature": "mo_sin_old_rev_tl_op",
+      "features_amber_or_red": 0,
+      "gini": 0.3334432546930526,
+      "gini_se": 0.007331603434501644,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06986481033091202,
+      "cal_dev_predicted": 0.04675864958899119,
+      "cal_dev_ratio": 1.4941579995364307,
+      "cal_dev_z": 34.793946966362164,
+      "cal_dev_p_value": 3.003017999598093e-265,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06986481033091202,
+      "cal_prod_predicted": 0.0666657585582375,
+      "cal_prod_ratio": 1.0479864302433446,
+      "cal_prod_z": 4.08248665056182,
+      "cal_prod_p_value": 4.4556372189825954e-05,
+      "cal_prod_status": "green",
+      "gini_6m": 0.30350727565403224,
+      "gini_6m_se": 0.012431478403108686,
+      "early_observed": 0.0237590799031477,
+      "early_predicted": 0.02353288424927363,
+      "early_ratio": 1.0096118967602135,
+      "early_z": 0.4716223154364676,
+      "early_p_value": 0.6371963955285992,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "loans": 103546,
+      "mean_score": 581.0025978792034,
+      "psi_score": 0.011392712857860608,
+      "psi_status": "green",
+      "max_csi": 0.06797634821163141,
+      "max_csi_feature": "loan_to_income",
+      "features_amber_or_red": 0,
+      "gini": 0.32233813308058856,
+      "gini_se": 0.007475140359579617,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06433855484518958,
+      "cal_dev_predicted": 0.04447188139231554,
+      "cal_dev_ratio": 1.4467243757379438,
+      "cal_dev_z": 31.30930369577315,
+      "cal_dev_p_value": 3.4862332385406874e-215,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06433855484518958,
+      "cal_prod_predicted": 0.06367644785890177,
+      "cal_prod_ratio": 1.010397988715623,
+      "cal_prod_z": 0.8822230456723879,
+      "cal_prod_p_value": 0.3776562017758821,
+      "cal_prod_status": "green",
+      "gini_6m": 0.29879414831850726,
+      "gini_6m_se": 0.01293028369689906,
+      "early_observed": 0.021005157128232862,
+      "early_predicted": 0.022478809539163227,
+      "early_ratio": 0.9344425954424799,
+      "early_z": -3.211469689222479,
+      "early_p_value": 0.001320579008463981,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "loans": 96779,
+      "mean_score": 582.3258454830077,
+      "psi_score": 0.03026645641072503,
+      "psi_status": "green",
+      "max_csi": 0.08911632903131017,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 0,
+      "gini": 0.3388027577643826,
+      "gini_se": 0.008056487037115366,
+      "gini_status": "green",
+      "cal_dev_observed": 0.05869041837588733,
+      "cal_dev_predicted": 0.042646268188434706,
+      "cal_dev_ratio": 1.3762146342221722,
+      "cal_dev_z": 24.928806972352294,
+      "cal_dev_p_value": 3.625640943528471e-137,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.05869041837588733,
+      "cal_prod_predicted": 0.061282483632169524,
+      "cal_prod_ratio": 0.9577029992478712,
+      "cal_prod_z": -3.398434141091259,
+      "cal_prod_p_value": 0.0006777277831545125,
+      "cal_prod_status": "green",
+      "gini_6m": 0.3224330714108026,
+      "gini_6m_se": 0.013459802334390465,
+      "early_observed": 0.020613976172516764,
+      "early_predicted": 0.021602815888566523,
+      "early_ratio": 0.9542263508076689,
+      "early_z": -2.1239566646663937,
+      "early_p_value": 0.03367376741613675,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "loans": 105451,
+      "mean_score": 582.0876426017771,
+      "psi_score": 0.026250192970057984,
+      "psi_status": "green",
+      "max_csi": 0.08772570594613918,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 0,
+      "gini": 0.34525800548866736,
+      "gini_se": 0.007557668271332096,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06115636646404491,
+      "cal_dev_predicted": 0.04304886783548158,
+      "cal_dev_ratio": 1.4206265934278262,
+      "cal_dev_z": 29.2421173855409,
+      "cal_dev_p_value": 5.655991561653459e-188,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06115636646404491,
+      "cal_prod_predicted": 0.06180572187204243,
+      "cal_prod_ratio": 0.9894936036934915,
+      "cal_prod_z": -0.8852941850473508,
+      "cal_prod_p_value": 0.3759979854190749,
+      "cal_prod_status": "green",
+      "gini_6m": 0.34479067018116893,
+      "gini_6m_se": 0.011834936711604535,
+      "early_observed": 0.02435254288721776,
+      "early_predicted": 0.021778566146901622,
+      "early_ratio": 1.1181885310058546,
+      "early_z": 5.748582780531335,
+      "early_p_value": 8.999458253833218e-09,
+      "early_status": "amber"
+    },
+    {
+      "quarter": "2017Q3",
+      "loans": 122701,
+      "mean_score": 581.8069616384545,
+      "psi_score": 0.020801248002109717,
+      "psi_status": "green",
+      "max_csi": 0.09598626729048108,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 0,
+      "gini": 0.3405570983156767,
+      "gini_se": 0.006879788957419772,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06365066299378164,
+      "cal_dev_predicted": 0.043615487439063405,
+      "cal_dev_ratio": 1.4593592031433793,
+      "cal_dev_z": 34.69696289487632,
+      "cal_dev_p_value": 8.754562954014248e-264,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06365066299378164,
+      "cal_prod_predicted": 0.062447071328494023,
+      "cal_prod_ratio": 1.019273788821197,
+      "cal_prod_z": 1.7621206585801015,
+      "cal_prod_p_value": 0.07804891358361393,
+      "cal_prod_status": "green",
+      "gini_6m": 0.3460551109754293,
+      "gini_6m_se": 0.011164084054635252,
+      "early_observed": 0.02349614102574551,
+      "early_predicted": 0.021999279983832744,
+      "early_ratio": 1.0680413651270773,
+      "early_z": 3.588772774755399,
+      "early_p_value": 0.00033223825358409974,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "loans": 118648,
+      "mean_score": 583.3582866967838,
+      "psi_score": 0.05151823632329619,
+      "psi_status": "green",
+      "max_csi": 0.20933561955273453,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 2,
+      "gini": 0.3267121783898057,
+      "gini_se": 0.007148570126059881,
+      "gini_status": "green",
+      "cal_dev_observed": 0.06117254399568471,
+      "cal_dev_predicted": 0.04157375382604746,
+      "cal_dev_ratio": 1.4714221922716515,
+      "cal_dev_z": 34.14940346117804,
+      "cal_dev_p_value": 1.3646912291190957e-255,
+      "cal_dev_status": "red",
+      "cal_prod_observed": 0.06117254399568471,
+      "cal_prod_predicted": 0.05972582125578159,
+      "cal_prod_ratio": 1.0242227349827036,
+      "cal_prod_z": 2.1267536410725603,
+      "cal_prod_p_value": 0.033440558010017746,
+      "cal_prod_status": "green",
+      "gini_6m": 0.31051768216003794,
+      "gini_6m_se": 0.011701554108650331,
+      "early_observed": 0.02234340233295125,
+      "early_predicted": 0.02101100621410525,
+      "early_ratio": 1.0634141985047594,
+      "early_z": 3.2126576325061147,
+      "early_p_value": 0.0013151295759780456,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "loans": 107864,
+      "mean_score": 584.0287213528146,
+      "psi_score": 0.06765246637863945,
+      "psi_status": "green",
+      "max_csi": 0.27404840369531613,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 3,
+      "gini": NaN,
+      "gini_se": NaN,
+      "gini_status": NaN,
+      "cal_dev_observed": NaN,
+      "cal_dev_predicted": NaN,
+      "cal_dev_ratio": NaN,
+      "cal_dev_z": NaN,
+      "cal_dev_p_value": NaN,
+      "cal_dev_status": NaN,
+      "cal_prod_observed": NaN,
+      "cal_prod_predicted": NaN,
+      "cal_prod_ratio": NaN,
+      "cal_prod_z": NaN,
+      "cal_prod_p_value": NaN,
+      "cal_prod_status": NaN,
+      "gini_6m": 0.31302012680451585,
+      "gini_6m_se": 0.012443046140978034,
+      "early_observed": 0.02171252688570793,
+      "early_predicted": 0.020691454069650752,
+      "early_ratio": 1.0493475621684238,
+      "early_z": 2.3653399153663464,
+      "early_p_value": 0.018013529125026226,
+      "early_status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "loans": 130772,
+      "mean_score": 583.4109748264154,
+      "psi_score": 0.05220547772046803,
+      "psi_status": "green",
+      "max_csi": 0.21806560592164234,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 5,
+      "gini": NaN,
+      "gini_se": NaN,
+      "gini_status": NaN,
+      "cal_dev_observed": NaN,
+      "cal_dev_predicted": NaN,
+      "cal_dev_ratio": NaN,
+      "cal_dev_z": NaN,
+      "cal_dev_p_value": NaN,
+      "cal_dev_status": NaN,
+      "cal_prod_observed": NaN,
+      "cal_prod_predicted": NaN,
+      "cal_prod_ratio": NaN,
+      "cal_prod_z": NaN,
+      "cal_prod_p_value": NaN,
+      "cal_prod_status": NaN,
+      "gini_6m": 0.3340656711152048,
+      "gini_6m_se": 0.010668042106907251,
+      "early_observed": 0.02425595693267672,
+      "early_predicted": 0.021083607499467347,
+      "early_ratio": 1.1504652101538846,
+      "early_z": 8.018033006631557,
+      "early_p_value": 1.074519367718386e-15,
+      "early_status": "amber"
+    },
+    {
+      "quarter": "2018Q3",
+      "loans": 128194,
+      "mean_score": 584.7083716866624,
+      "psi_score": 0.08924379334377114,
+      "psi_status": "green",
+      "max_csi": 0.25686357143222327,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 5,
+      "gini": NaN,
+      "gini_se": NaN,
+      "gini_status": NaN,
+      "cal_dev_observed": NaN,
+      "cal_dev_predicted": NaN,
+      "cal_dev_ratio": NaN,
+      "cal_dev_z": NaN,
+      "cal_dev_p_value": NaN,
+      "cal_dev_status": NaN,
+      "cal_prod_observed": NaN,
+      "cal_prod_predicted": NaN,
+      "cal_prod_ratio": NaN,
+      "cal_prod_z": NaN,
+      "cal_prod_p_value": NaN,
+      "cal_prod_status": NaN,
+      "gini_6m": NaN,
+      "gini_6m_se": NaN,
+      "early_observed": NaN,
+      "early_predicted": NaN,
+      "early_ratio": NaN,
+      "early_z": NaN,
+      "early_p_value": NaN,
+      "early_status": NaN
+    },
+    {
+      "quarter": "2018Q4",
+      "loans": 128412,
+      "mean_score": 584.899137152291,
+      "psi_score": 0.1018924888889938,
+      "psi_status": "amber",
+      "max_csi": 0.27792549320714693,
+      "max_csi_feature": "bc_open_to_buy",
+      "features_amber_or_red": 5,
+      "gini": NaN,
+      "gini_se": NaN,
+      "gini_status": NaN,
+      "cal_dev_observed": NaN,
+      "cal_dev_predicted": NaN,
+      "cal_dev_ratio": NaN,
+      "cal_dev_z": NaN,
+      "cal_dev_p_value": NaN,
+      "cal_dev_status": NaN,
+      "cal_prod_observed": NaN,
+      "cal_prod_predicted": NaN,
+      "cal_prod_ratio": NaN,
+      "cal_prod_z": NaN,
+      "cal_prod_p_value": NaN,
+      "cal_prod_status": NaN,
+      "gini_6m": NaN,
+      "gini_6m_se": NaN,
+      "early_observed": NaN,
+      "early_predicted": NaN,
+      "early_ratio": NaN,
+      "early_z": NaN,
+      "early_p_value": NaN,
+      "early_status": NaN
+    }
+  ],
+  "csi": [
+    {
+      "quarter": "2015Q1",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.010790610443596508,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "fico",
+      "csi": 0.004012761210714143,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "loan_to_income",
+      "csi": 0.003072864073935152,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "purpose",
+      "csi": 0.0018566718617595273,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "inq_last_6mths",
+      "csi": 0.03968758992696777,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "home_ownership",
+      "csi": 0.0039996182548816175,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "bc_open_to_buy",
+      "csi": 0.004925175379481805,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "dti",
+      "csi": 0.030111439057707474,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "term",
+      "csi": 0.00702040035768125,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.013263741025692511,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.004167291402738764,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q1",
+      "feature": "verification_status",
+      "csi": 0.04924436825345795,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.024839861086755472,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "fico",
+      "csi": 0.002299309135387126,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "loan_to_income",
+      "csi": 0.0016058456219767195,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "purpose",
+      "csi": 0.0022708830514885053,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "inq_last_6mths",
+      "csi": 0.04215792575361435,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "home_ownership",
+      "csi": 0.004689184103645757,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "bc_open_to_buy",
+      "csi": 0.006129459117784741,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "dti",
+      "csi": 0.026487280697716893,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "term",
+      "csi": 0.007391120214876123,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.01906406754554659,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.005220277974409351,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q2",
+      "feature": "verification_status",
+      "csi": 0.0544226757142571,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.0219242710866671,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "fico",
+      "csi": 0.003765537882201976,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "loan_to_income",
+      "csi": 0.0016746826846185943,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "purpose",
+      "csi": 0.002958453561261974,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "inq_last_6mths",
+      "csi": 0.049452468557538896,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "home_ownership",
+      "csi": 0.003998471602447163,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "bc_open_to_buy",
+      "csi": 0.016774038710666222,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "dti",
+      "csi": 0.03414851783190934,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "term",
+      "csi": 0.00905477175715894,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.02484444690851629,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.006745902608373145,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q3",
+      "feature": "verification_status",
+      "csi": 0.03240569205326939,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.0215467011460991,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "fico",
+      "csi": 0.0038176742440126587,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "loan_to_income",
+      "csi": 0.0032663338915284996,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "purpose",
+      "csi": 0.005625989652489066,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "inq_last_6mths",
+      "csi": 0.03699252140467242,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "home_ownership",
+      "csi": 0.004817743311633754,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "bc_open_to_buy",
+      "csi": 0.02374004293900082,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "dti",
+      "csi": 0.03802661492373129,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "term",
+      "csi": 0.004088316697061868,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.03582121517041385,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.008217118068728223,
+      "status": "green"
+    },
+    {
+      "quarter": "2015Q4",
+      "feature": "verification_status",
+      "csi": 0.023513183741200774,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.03149617424407565,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "fico",
+      "csi": 0.00813242629286144,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "loan_to_income",
+      "csi": 0.0028072516856263094,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "purpose",
+      "csi": 0.007110682908217269,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "inq_last_6mths",
+      "csi": 0.04014969067177335,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "home_ownership",
+      "csi": 0.008590338906486396,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "bc_open_to_buy",
+      "csi": 0.04964014365141084,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "dti",
+      "csi": 0.045854761817685205,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "term",
+      "csi": 0.0003117894702249402,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.043422702533013356,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.011527241153523493,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q1",
+      "feature": "verification_status",
+      "csi": 0.036440596642875474,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.027473162940362946,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "fico",
+      "csi": 0.011311668497404264,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "loan_to_income",
+      "csi": 0.010595927413368273,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "purpose",
+      "csi": 0.03810192671659929,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "inq_last_6mths",
+      "csi": 0.061899859552445854,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "home_ownership",
+      "csi": 0.013098561656062761,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "bc_open_to_buy",
+      "csi": 0.04972178107139762,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "dti",
+      "csi": 0.025899868355689224,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "term",
+      "csi": 0.013825782578670431,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.05278285498099948,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.01140855291956198,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q2",
+      "feature": "verification_status",
+      "csi": 0.044556912153574886,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.035175165553772,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "fico",
+      "csi": 0.00565193602852113,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "loan_to_income",
+      "csi": 0.039329631194045984,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "purpose",
+      "csi": 0.042502647161076365,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "inq_last_6mths",
+      "csi": 0.042986589225724896,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "home_ownership",
+      "csi": 0.014352821708467542,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "bc_open_to_buy",
+      "csi": 0.033007709708665275,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "dti",
+      "csi": 0.0024667606915571853,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "term",
+      "csi": 0.00640402785089999,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.05910902723612177,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.015467745610634069,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q3",
+      "feature": "verification_status",
+      "csi": 0.024676069862138078,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.020298978682701172,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "fico",
+      "csi": 0.00653724444955811,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "loan_to_income",
+      "csi": 0.06797634821163141,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "purpose",
+      "csi": 0.03418859851252805,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "inq_last_6mths",
+      "csi": 0.04910486231967339,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "home_ownership",
+      "csi": 0.009691705080213392,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "bc_open_to_buy",
+      "csi": 0.051938297287284524,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "dti",
+      "csi": 0.012671714670080672,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "term",
+      "csi": 0.014187303895670397,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.05783543692040924,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.01970229954274999,
+      "status": "green"
+    },
+    {
+      "quarter": "2016Q4",
+      "feature": "verification_status",
+      "csi": 0.02070789789469296,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.012264898890430538,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "fico",
+      "csi": 0.013575685409864344,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "loan_to_income",
+      "csi": 0.043330166228645155,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "purpose",
+      "csi": 0.023469934830261028,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "inq_last_6mths",
+      "csi": 0.08307921529291536,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "home_ownership",
+      "csi": 0.02004669007889258,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "bc_open_to_buy",
+      "csi": 0.08911632903131017,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "dti",
+      "csi": 0.008783249978097932,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "term",
+      "csi": 0.007420356482524286,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.054714426653418254,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.019766953669850144,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q1",
+      "feature": "verification_status",
+      "csi": 0.02810299367001644,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.016257239713804404,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "fico",
+      "csi": 0.026253650683404142,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "loan_to_income",
+      "csi": 0.05703122085291873,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "purpose",
+      "csi": 0.04915982218381797,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "inq_last_6mths",
+      "csi": 0.07934840895849479,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "home_ownership",
+      "csi": 0.004779653115715907,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "bc_open_to_buy",
+      "csi": 0.08772570594613918,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "dti",
+      "csi": 0.01362331448916226,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "term",
+      "csi": 0.0022442324562429498,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.06735855771582812,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.020045020658313636,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q2",
+      "feature": "verification_status",
+      "csi": 0.049109756394154346,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.011922620147475721,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "fico",
+      "csi": 0.045635699592249605,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "loan_to_income",
+      "csi": 0.052030350066760225,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "purpose",
+      "csi": 0.0488557472675276,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "inq_last_6mths",
+      "csi": 0.08036637749697892,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "home_ownership",
+      "csi": 0.007447420571057772,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "bc_open_to_buy",
+      "csi": 0.09598626729048108,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "dti",
+      "csi": 0.02816840057844971,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "term",
+      "csi": 0.00040609541420909685,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.08762321867321682,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.02500224435393749,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q3",
+      "feature": "verification_status",
+      "csi": 0.0641278358960922,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.009098498157251802,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "fico",
+      "csi": 0.14362885645594548,
+      "status": "amber"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "loan_to_income",
+      "csi": 0.05009409344400404,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "purpose",
+      "csi": 0.07255408196377992,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "inq_last_6mths",
+      "csi": 0.07820719292901404,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "home_ownership",
+      "csi": 0.014927612085074059,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "bc_open_to_buy",
+      "csi": 0.20933561955273453,
+      "status": "amber"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "dti",
+      "csi": 0.04906006848854138,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "term",
+      "csi": 0.0008243043458789285,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.0929702049141418,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.03669585208624228,
+      "status": "green"
+    },
+    {
+      "quarter": "2017Q4",
+      "feature": "verification_status",
+      "csi": 0.088288008562534,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.01030447685008647,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "fico",
+      "csi": 0.19396462539329393,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "loan_to_income",
+      "csi": 0.05158841737458778,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "purpose",
+      "csi": 0.0770396637968872,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "inq_last_6mths",
+      "csi": 0.11129490173617579,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "home_ownership",
+      "csi": 0.015505018319713008,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "bc_open_to_buy",
+      "csi": 0.27404840369531613,
+      "status": "red"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "dti",
+      "csi": 0.054140113884066914,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "term",
+      "csi": 0.0005603262046120742,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.09218740989782032,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.03938204717218343,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q1",
+      "feature": "verification_status",
+      "csi": 0.088687349620136,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.01666308900330664,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "fico",
+      "csi": 0.15154608621158644,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "loan_to_income",
+      "csi": 0.050582243223217874,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "purpose",
+      "csi": 0.08282214106672148,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "inq_last_6mths",
+      "csi": 0.12655409492023156,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "home_ownership",
+      "csi": 0.016898118204707248,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "bc_open_to_buy",
+      "csi": 0.21806560592164234,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "dti",
+      "csi": 0.04950121563245463,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "term",
+      "csi": 0.000500349643452484,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.12619863570656253,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.04509216086691197,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q2",
+      "feature": "verification_status",
+      "csi": 0.11170313997127994,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.011628749872294668,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "fico",
+      "csi": 0.14205376799887845,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "loan_to_income",
+      "csi": 0.04062612511768962,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "purpose",
+      "csi": 0.0163270015409637,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "inq_last_6mths",
+      "csi": 0.1608158233083245,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "home_ownership",
+      "csi": 0.01119875877598428,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "bc_open_to_buy",
+      "csi": 0.25686357143222327,
+      "status": "red"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "dti",
+      "csi": 0.04708017368487275,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "term",
+      "csi": 0.0006025628201357077,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.10735907625115601,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.04408039806532809,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q3",
+      "feature": "verification_status",
+      "csi": 0.1295857491806567,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "acc_open_past_24mths",
+      "csi": 0.010409532913954857,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "fico",
+      "csi": 0.14744551277566847,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "loan_to_income",
+      "csi": 0.0463285793759632,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "purpose",
+      "csi": 0.013845053414538382,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "inq_last_6mths",
+      "csi": 0.12854746751402793,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "home_ownership",
+      "csi": 0.012007820716788346,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "bc_open_to_buy",
+      "csi": 0.27792549320714693,
+      "status": "red"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "dti",
+      "csi": 0.04796343644774141,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "term",
+      "csi": 0.002567084740118325,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "mo_sin_old_rev_tl_op",
+      "csi": 0.1056104211977191,
+      "status": "amber"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "mo_sin_old_il_acct",
+      "csi": 0.05218218957422384,
+      "status": "green"
+    },
+    {
+      "quarter": "2018Q4",
+      "feature": "verification_status",
+      "csi": 0.24029812965367803,
+      "status": "amber"
+    }
+  ],
+  "score_mix": {
+    "band": [
+      "(-inf, 555.0]",
+      "(555.0, 563.0]",
+      "(563.0, 569.0]",
+      "(569.0, 574.0]",
+      "(574.0, 579.0]",
+      "(579.0, 583.0]",
+      "(583.0, 589.0]",
+      "(589.0, 595.0]",
+      "(595.0, 604.0]",
+      "(604.0, inf]"
+    ],
+    "dev": [
+      0.10775206981910847,
+      0.10307658668135179,
+      0.10497971347818692,
+      0.09932702197099148,
+      0.10353819615973307,
+      0.08133235072602263,
+      0.11204152865623052,
+      0.09433030182781156,
+      0.09969684944782328,
+      0.09392538123274026
+    ],
+    "last": [
+      0.05332056194125159,
+      0.0692614397408342,
+      0.08063888110145469,
+      0.08623804628850887,
+      0.10050462573591253,
+      0.0842911877394636,
+      0.12460673457309286,
+      0.1177693673488459,
+      0.13686415599788182,
+      0.14650499953275395
+    ]
+  },
+  "early_mob": 6
+}
