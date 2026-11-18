@@ -41,7 +41,7 @@ Each phase is checked before the next, with one commit per phase.
 | 1 | Default definition, observation windows, cleaning, leakage review ([report](docs/phase1_report.md)) | Done |
 | 2 | PostgreSQL star schema, BI views, least-privilege roles, reconciled load ([docs](docs/star_schema.md)) | Done |
 | 3 | Application scorecard: 12 features, WoE/IV, points scale; out-of-time test Gini 0.343 vs XGBoost 0.390 and LC sub-grade 0.399 ([report](docs/phase3_scorecard.md)) | Done |
-| 4 | PD calibration, rating master scale, lifetime PD curves from vintage data | |
+| 4 | Point-in-time PD calibration (2017 back-test 6.14% vs 6.13% observed), R1–R10 master scale, lifetime PD curves with prepayment as a competing risk ([report](docs/phase4_pd.md)) | Done |
 | 5 | LGD (recoveries, cure) and EAD (amortisation schedule, prepayment) | |
 | 6 | IFRS 9 ECL: staging (SICR rules, 30 days past due backstop), discounting, base/upside/downside scenarios | |
 | 7 | Monitoring: PSI, Gini by vintage, calibration back-tests | |
@@ -64,6 +64,7 @@ uv run python -m credit_risk.data.build_loans    # clean Parquet + docs/phase1_r
 uv run python -m credit_risk.warehouse.setup_db  # PostgreSQL database, roles (see .env.example)
 uv run python -m credit_risk.warehouse.load      # star schema + BI views, reconciled
 uv run python -m credit_risk.scorecard.train     # scorecard + docs/phase3_scorecard.md (~6 min)
+uv run python -m credit_risk.pd.run              # PD calibration, ratings, lifetime PD curves
 uv run pytest                                    # unit tests + warehouse checks (-m db)
 ```
 

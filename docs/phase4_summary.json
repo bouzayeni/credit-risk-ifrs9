@@ -1,0 +1,619 @@
+{
+  "variants": [
+    {
+      "variant": "first attempt",
+      "calibrated_on": "2015\u20132016",
+      "grade_pd": "mean fitted PD",
+      "slope": -0.03431,
+      "pd_2017_predicted": 0.05601374911289648,
+      "pd_2017_observed": 0.06131264104026566,
+      "grades_failing_jeffreys": 6,
+      "in_sample_ends": {
+        "R1": {
+          "grade_pd": 0.012085259611852858,
+          "observed": 0.007849293563579277
+        },
+        "R10": {
+          "grade_pd": 0.2253566544751098,
+          "observed": 0.19981937231880786
+        }
+      }
+    },
+    {
+      "variant": "validated design",
+      "calibrated_on": "2016",
+      "grade_pd": "observed default rate",
+      "slope": -0.03376,
+      "pd_2017_predicted": 0.06143900234599863,
+      "pd_2017_observed": 0.06131264104026566,
+      "grades_failing_jeffreys": 3,
+      "in_sample_ends": {
+        "R1": {
+          "grade_pd": 0.008151575236836307,
+          "observed": 0.008151575236836307
+        },
+        "R10": {
+          "grade_pd": 0.20894006095496107,
+          "observed": 0.20894006095496107
+        }
+      }
+    }
+  ],
+  "holdout_backtest": {
+    "first attempt": [
+      {
+        "grade": "R1",
+        "loans": 18588,
+        "defaults": 205,
+        "observed_rate": 0.011028620615450829,
+        "grade_pd": 0.012085259611852858,
+        "jeffreys_p": 0.9077517239607409
+      },
+      {
+        "grade": "R2",
+        "loans": 38862,
+        "defaults": 772,
+        "observed_rate": 0.01986516391333436,
+        "grade_pd": 0.019106605019010965,
+        "jeffreys_p": 0.13758211698509407
+      },
+      {
+        "grade": "R3",
+        "loans": 65946,
+        "defaults": 2057,
+        "observed_rate": 0.031192187547387257,
+        "grade_pd": 0.027707983675792847,
+        "jeffreys_p": 4.412242445942115e-08
+      },
+      {
+        "grade": "R4",
+        "loans": 83420,
+        "defaults": 3697,
+        "observed_rate": 0.04431790937425078,
+        "grade_pd": 0.03887666343594489,
+        "jeffreys_p": 8.544524717924919e-16
+      },
+      {
+        "grade": "R5",
+        "loans": 81936,
+        "defaults": 4913,
+        "observed_rate": 0.0599614333138059,
+        "grade_pd": 0.052665084635875534,
+        "jeffreys_p": 2.59800711037157e-20
+      },
+      {
+        "grade": "R6",
+        "loans": 70250,
+        "defaults": 5554,
+        "observed_rate": 0.07906049822064057,
+        "grade_pd": 0.07001039642380291,
+        "jeffreys_p": 1.4174161678274833e-20
+      },
+      {
+        "grade": "R7",
+        "loans": 43175,
+        "defaults": 4168,
+        "observed_rate": 0.09653734800231616,
+        "grade_pd": 0.09121594845797672,
+        "jeffreys_p": 6.951861611003771e-05
+      },
+      {
+        "grade": "R8",
+        "loans": 28292,
+        "defaults": 3548,
+        "observed_rate": 0.12540647532871482,
+        "grade_pd": 0.11913176031819792,
+        "jeffreys_p": 0.0006057316536821202
+      },
+      {
+        "grade": "R9",
+        "loans": 10546,
+        "defaults": 1748,
+        "observed_rate": 0.1657500474113408,
+        "grade_pd": 0.16016533750788847,
+        "jeffreys_p": 0.059441710437668695
+      },
+      {
+        "grade": "R10",
+        "loans": 2564,
+        "defaults": 535,
+        "observed_rate": 0.20865834633385336,
+        "grade_pd": 0.2253566544751098,
+        "jeffreys_p": 0.97920839603667
+      }
+    ],
+    "validated design": [
+      {
+        "grade": "R1",
+        "loans": 11639,
+        "defaults": 115,
+        "observed_rate": 0.009880573932468426,
+        "grade_pd": 0.008151575236836307,
+        "jeffreys_p": 0.021491272561594034
+      },
+      {
+        "grade": "R2",
+        "loans": 29281,
+        "defaults": 471,
+        "observed_rate": 0.016085516205047643,
+        "grade_pd": 0.015998666777768518,
+        "jeffreys_p": 0.44992531991192464
+      },
+      {
+        "grade": "R3",
+        "loans": 61420,
+        "defaults": 1715,
+        "observed_rate": 0.02792250081406708,
+        "grade_pd": 0.02565390482568739,
+        "jeffreys_p": 0.00022330789165449078
+      },
+      {
+        "grade": "R4",
+        "loans": 77819,
+        "defaults": 3109,
+        "observed_rate": 0.03995168275099911,
+        "grade_pd": 0.03982270047251997,
+        "jeffreys_p": 0.42593956515892467
+      },
+      {
+        "grade": "R5",
+        "loans": 81685,
+        "defaults": 4483,
+        "observed_rate": 0.054881557201444574,
+        "grade_pd": 0.05470545657722638,
+        "jeffreys_p": 0.4115743121342333
+      },
+      {
+        "grade": "R6",
+        "loans": 76217,
+        "defaults": 5439,
+        "observed_rate": 0.07136203209257777,
+        "grade_pd": 0.07135209943597243,
+        "jeffreys_p": 0.49494827877250186
+      },
+      {
+        "grade": "R7",
+        "loans": 55173,
+        "defaults": 5101,
+        "observed_rate": 0.09245464266942163,
+        "grade_pd": 0.09390991112308107,
+        "jeffreys_p": 0.8795179018810464
+      },
+      {
+        "grade": "R8",
+        "loans": 31319,
+        "defaults": 3641,
+        "observed_rate": 0.11625530827931926,
+        "grade_pd": 0.12239733751409632,
+        "jeffreys_p": 0.9995791766699749
+      },
+      {
+        "grade": "R9",
+        "loans": 14883,
+        "defaults": 2304,
+        "observed_rate": 0.15480749848820802,
+        "grade_pd": 0.14969709852269103,
+        "jeffreys_p": 0.04074986859818006
+      },
+      {
+        "grade": "R10",
+        "loans": 4143,
+        "defaults": 819,
+        "observed_rate": 0.19768283852280955,
+        "grade_pd": 0.20894006095496107,
+        "jeffreys_p": 0.9633207235926229
+      }
+    ]
+  },
+  "production": {
+    "years": [
+      2017
+    ],
+    "intercept": 16.34448371072399,
+    "slope": -0.03303701562130096,
+    "slope_implied_by_points": -0.03465735902799726,
+    "loans": 443579,
+    "observed_rate": 0.06131264104026566
+  },
+  "grade_bounds": [
+    0.015,
+    0.0225,
+    0.0325,
+    0.045,
+    0.06,
+    0.08,
+    0.105,
+    0.14,
+    0.19
+  ],
+  "grade_pd": {
+    "R1": 0.010238907849829351,
+    "R2": 0.015685635088863524,
+    "R3": 0.02733481056340586,
+    "R4": 0.03864919541445742,
+    "R5": 0.05298339344847537,
+    "R6": 0.07056946057896528,
+    "R7": 0.09245464266942163,
+    "R8": 0.1183087664856478,
+    "R9": 0.15644264020448054,
+    "R10": 0.203457069991499
+  },
+  "default_rate_by_year": {
+    "2012": {
+      "R1": 0.0035842293906810036,
+      "R2": 0.014178482068390326,
+      "R3": 0.02090124640460211,
+      "R4": 0.02661328308996703,
+      "R5": 0.03842159916926272,
+      "R6": 0.05416931312948008,
+      "R7": 0.07071240105540898,
+      "R8": 0.08979353330736269,
+      "R9": 0.15118174409127955,
+      "R10": 0.16610169491525423
+    },
+    "2013": {
+      "R1": 0.004897159647404506,
+      "R2": 0.007541478129713424,
+      "R3": 0.018415841584158415,
+      "R4": 0.024717293165869576,
+      "R5": 0.032869886683275736,
+      "R6": 0.049079984979346604,
+      "R7": 0.06595709479953675,
+      "R8": 0.08863064781892291,
+      "R9": 0.10598721178066266,
+      "R10": 0.1585139318885449
+    },
+    "2014": {
+      "R1": 0.007008601465434852,
+      "R2": 0.00966826326059961,
+      "R3": 0.018740239458615304,
+      "R4": 0.025182481751824817,
+      "R5": 0.03454290005329199,
+      "R6": 0.050455735987427974,
+      "R7": 0.06644708577975082,
+      "R8": 0.08777731268313102,
+      "R9": 0.11227478476968138,
+      "R10": 0.16248196248196248
+    },
+    "2015": {
+      "R1": 0.004383401519579193,
+      "R2": 0.011661292459914306,
+      "R3": 0.018399432455317298,
+      "R4": 0.02904454224802572,
+      "R5": 0.041548800176627244,
+      "R6": 0.058717099231041944,
+      "R7": 0.08086044671862114,
+      "R8": 0.10458837801194072,
+      "R9": 0.13880215725234177,
+      "R10": 0.17728769869683517
+    },
+    "2016": {
+      "R1": 0.007644110275689223,
+      "R2": 0.015816733067729082,
+      "R3": 0.02518954821730685,
+      "R4": 0.03787900643337276,
+      "R5": 0.053395263137691454,
+      "R6": 0.07023700896095085,
+      "R7": 0.09390991112308107,
+      "R8": 0.12345742360879493,
+      "R9": 0.1519463718687522,
+      "R10": 0.21675166732051784
+    },
+    "2017": {
+      "R1": 0.010238907849829351,
+      "R2": 0.015685635088863524,
+      "R3": 0.02733481056340586,
+      "R4": 0.03864919541445742,
+      "R5": 0.05298339344847537,
+      "R6": 0.07056946057896528,
+      "R7": 0.09245464266942163,
+      "R8": 0.1183087664856478,
+      "R9": 0.15644264020448054,
+      "R10": 0.203457069991499
+    }
+  },
+  "anchors": [
+    {
+      "rating": "R1",
+      "term": 36,
+      "loans": 41161,
+      "pd_12m_target": 0.0102,
+      "pd_12m_pooled": 0.0076,
+      "anchor_factor": 1.355,
+      "lifetime_pd_pooled": 0.024,
+      "lifetime_pd_anchored": 0.0323,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R1",
+      "term": 60,
+      "loans": 2331,
+      "pd_12m_target": 0.0102,
+      "pd_12m_pooled": 0.0115,
+      "anchor_factor": 0.89,
+      "lifetime_pd_pooled": 0.0385,
+      "lifetime_pd_anchored": 0.0344,
+      "months_borrowed": 44,
+      "relative_risk": 0.121
+    },
+    {
+      "rating": "R2",
+      "term": 36,
+      "loans": 122960,
+      "pd_12m_target": 0.0157,
+      "pd_12m_pooled": 0.0136,
+      "anchor_factor": 1.154,
+      "lifetime_pd_pooled": 0.0441,
+      "lifetime_pd_anchored": 0.0507,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R2",
+      "term": 60,
+      "loans": 16804,
+      "pd_12m_target": 0.0157,
+      "pd_12m_pooled": 0.0164,
+      "anchor_factor": 0.956,
+      "lifetime_pd_pooled": 0.077,
+      "lifetime_pd_anchored": 0.0738,
+      "months_borrowed": 16,
+      "relative_risk": 0.232
+    },
+    {
+      "rating": "R3",
+      "term": 36,
+      "loans": 217333,
+      "pd_12m_target": 0.0273,
+      "pd_12m_pooled": 0.0227,
+      "anchor_factor": 1.205,
+      "lifetime_pd_pooled": 0.071,
+      "lifetime_pd_anchored": 0.0848,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R3",
+      "term": 60,
+      "loans": 45906,
+      "pd_12m_target": 0.0273,
+      "pd_12m_pooled": 0.0262,
+      "anchor_factor": 1.042,
+      "lifetime_pd_pooled": 0.121,
+      "lifetime_pd_anchored": 0.1256,
+      "months_borrowed": 6,
+      "relative_risk": 0.368
+    },
+    {
+      "rating": "R4",
+      "term": 36,
+      "loans": 290419,
+      "pd_12m_target": 0.0386,
+      "pd_12m_pooled": 0.0332,
+      "anchor_factor": 1.167,
+      "lifetime_pd_pooled": 0.101,
+      "lifetime_pd_anchored": 0.1166,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R4",
+      "term": 60,
+      "loans": 82683,
+      "pd_12m_target": 0.0386,
+      "pd_12m_pooled": 0.0358,
+      "anchor_factor": 1.08,
+      "lifetime_pd_pooled": 0.1602,
+      "lifetime_pd_anchored": 0.1715,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R5",
+      "term": 36,
+      "loans": 298425,
+      "pd_12m_target": 0.053,
+      "pd_12m_pooled": 0.0461,
+      "anchor_factor": 1.152,
+      "lifetime_pd_pooled": 0.1343,
+      "lifetime_pd_anchored": 0.1528,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R5",
+      "term": 60,
+      "loans": 107880,
+      "pd_12m_target": 0.053,
+      "pd_12m_pooled": 0.0478,
+      "anchor_factor": 1.111,
+      "lifetime_pd_pooled": 0.1984,
+      "lifetime_pd_anchored": 0.2171,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R6",
+      "term": 36,
+      "loans": 298451,
+      "pd_12m_target": 0.0706,
+      "pd_12m_pooled": 0.0625,
+      "anchor_factor": 1.135,
+      "lifetime_pd_pooled": 0.1748,
+      "lifetime_pd_anchored": 0.1953,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R6",
+      "term": 60,
+      "loans": 137597,
+      "pd_12m_target": 0.0706,
+      "pd_12m_pooled": 0.0647,
+      "anchor_factor": 1.093,
+      "lifetime_pd_pooled": 0.2544,
+      "lifetime_pd_anchored": 0.2736,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R7",
+      "term": 36,
+      "loans": 184463,
+      "pd_12m_target": 0.0925,
+      "pd_12m_pooled": 0.0831,
+      "anchor_factor": 1.118,
+      "lifetime_pd_pooled": 0.2195,
+      "lifetime_pd_anchored": 0.2412,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R7",
+      "term": 60,
+      "loans": 111238,
+      "pd_12m_target": 0.0925,
+      "pd_12m_pooled": 0.0859,
+      "anchor_factor": 1.079,
+      "lifetime_pd_pooled": 0.3118,
+      "lifetime_pd_anchored": 0.3308,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R8",
+      "term": 36,
+      "loans": 105638,
+      "pd_12m_target": 0.1183,
+      "pd_12m_pooled": 0.1058,
+      "anchor_factor": 1.125,
+      "lifetime_pd_pooled": 0.2663,
+      "lifetime_pd_anchored": 0.2932,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R8",
+      "term": 60,
+      "loans": 85238,
+      "pd_12m_target": 0.1183,
+      "pd_12m_pooled": 0.1121,
+      "anchor_factor": 1.059,
+      "lifetime_pd_pooled": 0.3709,
+      "lifetime_pd_anchored": 0.3866,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R9",
+      "term": 36,
+      "loans": 39235,
+      "pd_12m_target": 0.1564,
+      "pd_12m_pooled": 0.1322,
+      "anchor_factor": 1.199,
+      "lifetime_pd_pooled": 0.3183,
+      "lifetime_pd_anchored": 0.3662,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R9",
+      "term": 60,
+      "loans": 44897,
+      "pd_12m_target": 0.1564,
+      "pd_12m_pooled": 0.1462,
+      "anchor_factor": 1.076,
+      "lifetime_pd_pooled": 0.44,
+      "lifetime_pd_anchored": 0.4622,
+      "months_borrowed": 5,
+      "relative_risk": 1.916
+    },
+    {
+      "rating": "R10",
+      "term": 36,
+      "loans": 9231,
+      "pd_12m_target": 0.2035,
+      "pd_12m_pooled": 0.1783,
+      "anchor_factor": 1.158,
+      "lifetime_pd_pooled": 0.3846,
+      "lifetime_pd_anchored": 0.428,
+      "months_borrowed": 0,
+      "relative_risk": 1.0
+    },
+    {
+      "rating": "R10",
+      "term": 60,
+      "loans": 16029,
+      "pd_12m_target": 0.2035,
+      "pd_12m_pooled": 0.191,
+      "anchor_factor": 1.073,
+      "lifetime_pd_pooled": 0.5181,
+      "lifetime_pd_anchored": 0.5404,
+      "months_borrowed": 14,
+      "relative_risk": 2.423
+    }
+  ],
+  "open_book_by_rating": [
+    {
+      "rating": "R1",
+      "loans": 21140,
+      "outstanding": 176059236.71,
+      "share_outstanding": 0.018512314629494802
+    },
+    {
+      "rating": "R2",
+      "loans": 65381,
+      "outstanding": 611895729.28,
+      "share_outstanding": 0.06433974423923046
+    },
+    {
+      "rating": "R3",
+      "loans": 118091,
+      "outstanding": 1170993740.53,
+      "share_outstanding": 0.12312790262499802
+    },
+    {
+      "rating": "R4",
+      "loans": 159888,
+      "outstanding": 1630722264.54,
+      "share_outstanding": 0.17146753671443163
+    },
+    {
+      "rating": "R5",
+      "loans": 166704,
+      "outstanding": 1731846886.46,
+      "share_outstanding": 0.18210061029099914
+    },
+    {
+      "rating": "R6",
+      "loans": 170511,
+      "outstanding": 1813677836.33,
+      "share_outstanding": 0.1907049886737086
+    },
+    {
+      "rating": "R7",
+      "loans": 109573,
+      "outstanding": 1201147684.07,
+      "share_outstanding": 0.126298535990017
+    },
+    {
+      "rating": "R8",
+      "loans": 66876,
+      "outstanding": 761300693.59,
+      "share_outstanding": 0.08004940968024885
+    },
+    {
+      "rating": "R9",
+      "loans": 27068,
+      "outstanding": 321355476.27,
+      "share_outstanding": 0.03378995499350299
+    },
+    {
+      "rating": "R10",
+      "loans": 7377,
+      "outstanding": 91385308.66,
+      "share_outstanding": 0.009609002163368609
+    }
+  ]
+}
